@@ -51,7 +51,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 ![pandaSob](emotes/pandaSob.png)  
 ![pandaSparkle](emotes/pandaSparkle.png)  
 ![pandaSpoon](emotes/pandaSpoon.png)  
-![pandaStare](emotes/pandaStare.png)  
+![pandaStare](emotes/pandaStare.jpg)  
 ![pandaStone](emotes/pandaStone.png)  
 ![pandaSurprised](emotes/pandaSurprised.png)  
 ![pandaSweat](emotes/pandaSweat.png)  
