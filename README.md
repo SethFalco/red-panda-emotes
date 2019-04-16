@@ -31,7 +31,6 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 ![pandaHeart](emotes/pandaHeart.png)  
 ![pandaHide](emotes/pandaHide.png)  
 ![pandaHug](emotes/pandaHug.png)  
-![pandaKappa](emotes/pandaKappa.png)  
 ![pandaNo](emotes/pandaNo.png)  
 ![pandaOhNo](emotes/pandaOhNo.png)  
 ![pandaPet](emotes/pandaPet.png)  
