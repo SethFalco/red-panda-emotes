@@ -10,7 +10,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 ![pandaBlank](emotes/pandaBlank.png)  
 ![pandaBlanketHappy](emotes/pandaBlanketHappy.png)  
 ![pandaBlanketSad](emotes/pandaBlanketSad.png)  
-![pandaBlush](emotes/pandaApandaBlushngry.png)  
+![pandaBlush](emotes/pandaBlush.png)  
 ![pandaBrokenHeart](emotes/pandaBrokenHeart.png)  
 ![pandaCheeky](emotes/pandaCheeky.png)  
 ![pandaContent](emotes/pandaContent.png)  
