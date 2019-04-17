@@ -22,6 +22,7 @@ TODO: INSERT SHIT HERE
 
 ### Key
 Some of the terms used in this guide may not be friendly or obvious to people that aren't developers or don't use git often so here is a short key.
+
 | Word | Definition | Synonyms |
 |------|------------|----------|
 | git  | Git is a version control system optimised for managing changes in files. | |
