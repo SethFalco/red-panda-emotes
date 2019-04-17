@@ -1,14 +1,8 @@
 # Contribution Guide
-## About
-This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
+<details>
+    <summary><strong>Glossary</strong></summary>
 
-## Requirements
-* In order to contribute you must have a GitLab account which you can make for free.
-* Have [git](https://git-scm.com/) installed on your computer.
-* (Optional) Have a git GUI tool such as [GitHub Desktop](https://desktop.github.com/) installed if you aren't a big fan of using the command line.
-
-## Glossary
-Some of the terms used in this guide may not be friendly or obvious to people that aren't developers or don't use git often so here is a short key.
+Some of the terms used in this guide may not be friendly or obvious to people haven't used git before so here is a short key.
 
 | Word | Definition | Synonyms |
 |------|------------|----------|
@@ -21,27 +15,83 @@ Some of the terms used in this guide may not be friendly or obvious to people th
 | pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
 | terminal | A console where you can execute commands, this refers to whatever your computer has for example: Command Prompt (cmd), PowerShell or Terminal). | |
 
-### Contributing
-You can install [git](https://git-scm.com/) and actually use it locally on your machine, for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevent to this repository but you're welcome to look information up online via [Google](https://www.google.com/) or [StackOverflow](https://stackoverflow.com/).
+</details>
 
-You'll know you have git installed correctly when you are able to do the command `git --version` in terminal and get a non-error response such as:
+## About
+This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
+
+There are two sets of instructions depending on how you want to contribute, both are perfectly viable options regardless of experience as they will achieve the same thing, in the same way.
+
+### CLI (Command Line Interface)
+The CLI route involved typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but required may require some confidence with command line.
+
+### GUI (GitGraken)
+The GUI route involved downloading a git client which will provide a visual experience in cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
+
+## Requirements
+* In order to contribute you must have a GitLab account which you can make for free on this site.
+* Either install:  
+  * [git](https://git-scm.com/) if you want to take the CLI route.
+  * A git client such as [GitKraken](https://www.gitkraken.com/invite?referralCode=bEXJc8LN) if you want to take the GUI route.
+
+### Installing Git
+If you need to download git you can just download it [here](https://git-scm.com/), for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevent to this repository but you're welcome to look information up online via [Google](https://www.google.com/) or [StackOverflow](https://stackoverflow.com/).
+
+You'll know you have git installed correctly once you are able to do the command `git --version` in terminal and get a non-error response such as:
 ```sh
 $ git --version 
 git version 2.17.1
 ```
+Remember you may need to restart your terminal instance after installation to make sure changes are in effect.
 
+> When performing commands with git make sure you're always executing them in your local repository!
+
+### Installing GitKraken
+You can download it [here](https://www.gitkraken.com/invite?referralCode=bEXJc8LN), it's a simple installation, however you must have an account with GitHub or GitKraken in order to use it.
+
+Once it's installed be sure to check your emails to activate your account if required.
+
+#### GitLab Authentication
+This will allow GitKraken to freely pull/push to your GitLab repositories without pestering for your credentials over and over.
+
+1. Click the menu (3 bars) icon at the top right.
+2. Navigate to: `Preferences > Authentication > GitLab.com`
+3. Click `Connect to GitLab`.
+4. Authenticate to your GitLab account.
+
+### Contributing
 #### Forking the Project
-The first step is to fork the project, this can be done via the GitLab website by just clicking the `Fork` button on the project home, this will clone the project to your personal namespace.
+The first step is to fork the project, this can be done via the GitLab website by just clicking the `Fork` button on the project home.
+
+![Forking the Project](assets/fork_project.gif)
+> Notice how at first we're in the project under the Elypia namespace (`Elypia > Elypia Emotes`) but after the fork we're now in another namespace (`{YOUR_NAMESPACE} > Elypia Emotes`).  
+Forking the project will clone the project to your namespace so that you can track your own copy of the repository.
 
 #### Cloning your Fork Locally
-Once you have made your fork you need to do a command in order to `clone` the your new repository to your computer; make sure you're on **_your_** repository and look at for a clone button, then copy the URL.  
-> It's simpler to use HTTPS but if you know what you're doing feel free to use SSH, don't just use SSH becasue you're a "cool kid" though.
+Now that you've made your fork you can clone it to the computer you wish to work from, you can get the clone URL from the top of **_your_** forked project and do it either through CLI or GUI.  
+
+![Cloning the Project](assets/clone_project.gif)
+
+It's simpler to use HTTPS but if you know what you're doing feel free to use SSH, don't just use SSH becasue you're a "cool kid" though.
+
+<details>
+    <summary><strong>CLI</strong></summary>
 
 ```sh
 git clone https://gitlab.com/{YOUR_NAME_SPACE}/elypia-emotes.git
 ```
+With CLI this is all you have to do and you'll find a new directory in the location you did this command called `elypia-emotes` which contains the repository files.
+</details>
 
-This will download the repository to the location you specified in a `elypia-emotes` directory which you can now freely modify to your hearts content.
+<details>
+    <summary><strong>GUI</strong></summary>
+
+1. Navigate to: `Clone a repo > GitLab.com`
+2. Specify any location to clone your repository.
+3. Select the emote repository under your account.
+
+![Cloning the Project](assets/clone_project_gui.gif)
+</details>
 
 #### Commiting Changes
 Once you have made the changes you wish to make, for example a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
