@@ -19,7 +19,6 @@ Some of the terms used in this guide may not be friendly or obvious to people th
 | master | The main version of the project, this is usually the most stable and up-to-date branch, others are _usually_ intended for development such as fixing an issue or adding a feature. | |
 | merge | Pulling changes made from one branch into another branch. | |
 | pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
-| CLI | Command Line Interface | |
 | terminal | A console where you can execute commands, this refers to whatever your computer has for example: Command Prompt (cmd), PowerShell or Terminal). | |
 
 ### Contributing
