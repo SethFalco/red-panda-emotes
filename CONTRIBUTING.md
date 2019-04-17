@@ -1,26 +1,13 @@
 # Contribution Guide
 ## About
-This will be a short document about how to contribute to this project if you're unfamiliar with git / GitLab, and any expectations, standards, or information you should know before you try to commit your own work.
-
-There is a [TL;DR](#tldr) and [Advance](#advance) tutorial:  
-> **TL;DR**: Is good for people who just want to upload the art and be done with it.  
-
-> **Advance**: Is good for people who want to actually understand what is happening on their screen and more ways to contribute that may suit your work style better, for example if you contribute frequently or in bulk.
+This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
 
 ## Requirements
 * In order to contribute you must have a GitLab account which you can make for free.
+* Have [git](https://git-scm.com/) installed on your computer.
+* (Optional) Have a git GUI tool such as [GitHub Desktop](https://desktop.github.com/) installed if you aren't a big fan of using the command line.
 
-## TL;DR
-This will basically give you some images to follow and quickly get your contribution uploaded to our repo and assumes you only intend to upload one emote at a time.
-
-TODO: INSERT SHIT HERE
-
-## Advance
-
-<details>
-    <summary>Open this if you're brave enough...</summary>
-
-### Key
+## Glossary
 Some of the terms used in this guide may not be friendly or obvious to people that aren't developers or don't use git often so here is a short key.
 
 | Word | Definition | Synonyms |
@@ -32,36 +19,24 @@ Some of the terms used in this guide may not be friendly or obvious to people th
 | master | The main version of the project, this is usually the most stable and up-to-date branch, others are _usually_ intended for development such as fixing an issue or adding a feature. | |
 | merge | Pulling changes made from one branch into another branch. | |
 | pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
+| CLI | Command Line Interface | |
+| terminal | A console where you can execute commands, this refers to whatever your computer has for example: Command Prompt (cmd), PowerShell or Terminal). | |
 
-
-### Pull Requests
-There are multiple way to do a pull request with GitLab, this will just cover some of the methods you can take.
-
-### **`+`** Button
-This approach is by far the simplest, but it's drawback is you can only upload one file/directory at a time with and it's inconvient to get it placed in the correct directory.
-
-The **`+`** button will automatically fork the project to your own namespace which you can then push and pull changes as much as you want from your version of the repostiory until you're ready to do the pull request.
-
-Once your file is comitted you'll be able taken to the pull request page where you can give a name, and description for your change and click `Submit merge request` when you're ready. 
-
-You're merge request will be visible [here](https://gitlab.com/Elypia/elypia-emotes/), it will either be merged by a repository maintainer or discussion may take place below if it's either not desired or changes are requested prior to merge.
-
-### CLI (Command Line Interface)
-This is by far the best way to contribute if you want to use git normaly and want optimal control while you commit, there are also tools out there to help you work with git better but we'll only use the command line.
-
+### Contributing
 You can install [git](https://git-scm.com/) and actually use it locally on your machine, for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevent to this repository but you're welcome to look information up online via [Google](https://www.google.com/) or [StackOverflow](https://stackoverflow.com/).
 
-You'll know you have git installed correctly when you are able to do the command `git --version` in CMD/PowerShell/Terminal and get a non-error response such as:
+You'll know you have git installed correctly when you are able to do the command `git --version` in terminal and get a non-error response such as:
 ```sh
 $ git --version 
 git version 2.17.1
 ```
 
 #### Forking the Project
-The first step is to fork the project, this can be done via the GitLab website by just clicking the `Fork` button on the project home.
+The first step is to fork the project, this can be done via the GitLab website by just clicking the `Fork` button on the project home, this will clone the project to your personal namespace.
 
 #### Cloning your Fork Locally
-Once you have made your fork you need to a command on your computer in order to `clone` the new repository to your computer, go to your fork of the project and look at for a clone button, and clone it, it's simpler to use HTTPS but if you know what you're doing feel free to use SSH.
+Once you have made your fork you need to do a command in order to `clone` the your new repository to your computer; make sure you're on **_your_** repository and look at for a clone button, then copy the URL.  
+> It's simpler to use HTTPS but if you know what you're doing feel free to use SSH, don't just use SSH becasue you're a "cool kid" though.
 
 ```sh
 git clone https://gitlab.com/{YOUR_NAME_SPACE}/elypia-emotes.git
@@ -76,13 +51,19 @@ The easiest way to do this is to open a CMD/PowerShell/Terminal to your project 
 
 ```sh
 git add .
-git commit -m "Added angryPanda emote!"
+```
+> Tell git you want to add all changed files to be staged for commit.  
+
+```sh
+git commit -m "{COMMIT_MESSAGE}"
+```
+> Commit the changes to your local repository on your computer with the message you set, replace `{COMMIT_MESSAGE}` with a message that represents the changes in this commit.
+
+```sh
 git push origin/master
 ```
+> Push the changes to your repository on GitLab so they are available in your fork of the elypia-emote repository.
 
-1. What this does is tell git you want to add all changed files to be stages for commit.  
-2. Commit the changes to your local repository on your computer with the message you set.
-3. Push the changes to your repository on GitLab so they are available online.
 
 #### Pull Request
 Now that you're changes are online and with GitLab, you'll able to make a pull request to the original branch under the Elypia namespace.
