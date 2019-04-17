@@ -23,10 +23,10 @@ This will be a short document about any expectations, standards, or information 
 There are two sets of instructions depending on how you want to contribute, both are perfectly viable options regardless of experience as they will achieve the same thing, in the same way.
 
 ### CLI (Command Line Interface)
-The CLI route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but required may require some confidence with command line.
+The CLI route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but may require some confidence with command line.
 
 ### GUI (GitGraken)
-The GUI route involves downloading a git client which will provide a visual experience in cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
+The GUI route involves downloading a git client which will provide a window and buttons for cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
 
 ## Requirements
 * In order to contribute you must have a GitLab account which you can make for free on this site.
@@ -58,6 +58,7 @@ This will allow GitKraken to freely pull/push to your GitLab repositories withou
 2. Navigate to: `Preferences > Authentication > GitLab.com`
 3. Click `Connect to GitLab`.
 4. Authenticate to your GitLab account.
+5. `Generate SSH key and add to GitLab`
 
 ### Contributing
 #### Forking the Project
@@ -120,7 +121,7 @@ git push origin/master
 <details>
     <summary><strong>GUI</strong></summary>
 
-1. `Stack all changes`
+1. `Stage all changes`
 2. Give the commit a title.
 3. `Commit changes to X file(s)`
 4. `Push`
@@ -145,3 +146,7 @@ This is also a good place to get your pull request a title and description so we
 
 After this just click `Submit merge request`, and you'll see it [here](https://gitlab.com/Elypia/elypia-emotes/) for the repository maintainers to review.
 </details>
+
+### Gratz!
+You've just done your first pull request!  
+In future you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes. ^-^
