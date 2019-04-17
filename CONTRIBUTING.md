@@ -72,10 +72,9 @@ Now that you've made your fork you can clone it to the computer you wish to work
 
 ![Cloning the Project](assets/clone_project.gif)
 
-It's simpler to use HTTPS but if you know what you're doing feel free to use SSH, don't just use SSH becasue you're a "cool kid" though.
-
 <details>
     <summary><strong>CLI</strong></summary>
+It's simpler to use HTTPS but if you know what you're doing feel free to use SSH.  
 
 ```sh
 git clone https://gitlab.com/{YOUR_NAME_SPACE}/elypia-emotes.git
@@ -93,11 +92,13 @@ With CLI this is all you have to do and you'll find a new directory in the locat
 ![Cloning the Project](assets/clone_project_gui.gif)
 </details>
 
+At this point you now have the repository cloned and you are welcome to make changes to the contents as you desire by either replacing or adding emotes.
+
 #### Commiting Changes
 Once you have made the changes you wish to make, for example a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
 
-The easiest way to do this is to open a CMD/PowerShell/Terminal to your project directory and do the following commands.
-
+<details>
+    <summary><strong>CLI</strong></summary>
 ```sh
 git add .
 ```
@@ -112,6 +113,19 @@ git commit -m "{COMMIT_MESSAGE}"
 git push origin/master
 ```
 > Push the changes to your repository on GitLab so they are available in your fork of the elypia-emote repository.
+</details>
+
+<details>
+    <summary><strong>GUI</strong></summary>
+
+1. Navigate to: `Clone a repo > GitLab.com`
+2. Specify any location to clone your repository.
+3. Select the emote repository under your account.
+
+![Cloning the Project](assets/clone_project_gui.gif)
+</details>
+
+
 
 
 #### Pull Request
