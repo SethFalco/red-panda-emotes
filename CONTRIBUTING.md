@@ -23,10 +23,10 @@ This will be a short document about any expectations, standards, or information 
 There are two sets of instructions depending on how you want to contribute, both are perfectly viable options regardless of experience as they will achieve the same thing, in the same way.
 
 ### CLI (Command Line Interface)
-The CLI route involved typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but required may require some confidence with command line.
+The CLI route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but required may require some confidence with command line.
 
 ### GUI (GitGraken)
-The GUI route involved downloading a git client which will provide a visual experience in cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
+The GUI route involves downloading a git client which will provide a visual experience in cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
 
 ## Requirements
 * In order to contribute you must have a GitLab account which you can make for free on this site.
@@ -74,6 +74,7 @@ Now that you've made your fork you can clone it to the computer you wish to work
 
 <details>
     <summary><strong>CLI</strong></summary>
+
 It's simpler to use HTTPS but if you know what you're doing feel free to use SSH.  
 
 ```sh
@@ -99,6 +100,7 @@ Once you have made the changes you wish to make, for example a change to an exis
 
 <details>
     <summary><strong>CLI</strong></summary>
+
 ```sh
 git add .
 ```
@@ -118,18 +120,18 @@ git push origin/master
 <details>
     <summary><strong>GUI</strong></summary>
 
-1. Navigate to: `Clone a repo > GitLab.com`
-2. Specify any location to clone your repository.
-3. Select the emote repository under your account.
+1. `Stack all changes`
+2. Give the commit a title.
+3. `Commit changes to X file(s)`
+4. `Push`
 
-![Cloning the Project](assets/clone_project_gui.gif)
+![Pushing the Project](assets/push_project.gif)
 </details>
 
-
-
+You'll now find your changes on your project on GitLab!
 
 #### Pull Request
-Now that you're changes are online and with GitLab, you'll able to make a pull request to the original branch under the Elypia namespace.
+Now that your changes are online and with GitLab, you'll able to make a pull request to the original branch under the Elypia namespace.
 
 If you go to the elypia-emote repository under your namespace, you should see a message that you can do a pull request to the source branch (this refers to the original [Elypia/elypia-emote](https://gitlab.com/Elypia/elypia-emotes/) branch you cloned from.)  
 If you don't see a message like that, you can go to the `Merge Requests` tab and click `Create merge request` manually.
@@ -143,5 +145,3 @@ This is also a good place to get your pull request a title and description so we
 
 After this just click `Submit merge request`, and you'll see it [here](https://gitlab.com/Elypia/elypia-emotes/) for the repository maintainers to review.
 </details>
-
-I've made a change!
