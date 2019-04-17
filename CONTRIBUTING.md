@@ -71,10 +71,11 @@ Forking the project will clone the project to your namespace so that you can tra
 #### Cloning your Fork Locally
 Now that you've made your fork you can clone it to the computer you wish to work from, you can get the clone URL from the top of **_your_** forked project and do it either through CLI or GUI.  
 
-![Cloning the Project](assets/clone_project.gif)
 
 <details>
     <summary><strong>CLI</strong></summary>
+
+![Cloning the Project](assets/clone_project.gif)
 
 It's simpler to use HTTPS but if you know what you're doing feel free to use SSH.  
 
@@ -149,4 +150,4 @@ After this just click `Submit merge request`, and you'll see it [here](https://g
 
 ### Gratz!
 You've just done your first pull request!  
-In future you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes. ^-^
+In future you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
