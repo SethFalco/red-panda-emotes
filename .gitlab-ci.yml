@@ -1,0 +1,9 @@
+image: registry.gitlab.com/elypia/elypia-emotes
+
+deploy:
+  stage: deploy
+  script:
+    - ls
+  artifacts:
+    paths:
+      - emotes
