@@ -1,4 +1,4 @@
-# Elypia Emotes
+# Elypia Emotes [![pipeline status](https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg)](https://gitlab.com/Elypia/elypia-emotes/commits/master)
 All emotes for Elypia which are open-source and available via the Apache 2.0 license.  
 **For information on [contributing](CONTRIBUTING.md) please check out that file.**
 
