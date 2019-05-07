@@ -3,7 +3,7 @@ image: registry.gitlab.com/elypia/elypia-emotes
 deploy:
   stage: deploy
   script:
-    - ls
+    - sh build.sh
   artifacts:
     paths:
-      - emotes
+      - output
