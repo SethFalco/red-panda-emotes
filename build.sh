@@ -11,3 +11,6 @@ do
         convert "./${f}" -resize ${s}x${s} "../output/${s}x${s}/${f}";
     done
 done
+
+cd ..
+mv emotes/ output/src/
