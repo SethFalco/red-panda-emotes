@@ -1,4 +1,4 @@
-image: registry.gitlab.com/elypia/elypia-emotes
+image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
 
 deploy:
   stage: deploy
