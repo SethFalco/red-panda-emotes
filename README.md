@@ -1,4 +1,4 @@
-# Elypia Emotes [![pipeline status](https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg)](https://gitlab.com/Elypia/elypia-emotes/commits/master)
+# Elypia Emotes [![Discord][discord-members]][discord] [![GitLab Build][gitlab-build]][gitlab]
 All emotes for Elypia which are open-source and available via the Apache 2.0 license.  
 **For information on [contributing](CONTRIBUTING.md) please check out that file.**
 
@@ -83,3 +83,8 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
     <img src="emotes/pandaStone.png" height="64" width="64"/>
     <img src="emotes/pandaTea.png" height="64" width="64"/>
 </details>
+
+[discord]: https://discord.gg/hprGMaM "Discord Invite"
+[discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
+[gitlab]: https://gitlab.com/Elypia/elypia-emotes/commits/master "Repository on GitLab"
+[gitlab-build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
