@@ -6,7 +6,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 > Collectively all the emotes add up to be very large so they have been tucked away inside of `details` tags so you download less at a time while browsing the page.
 
 <details>
-    <summary>Action</summary>
+    <summary><strong>Action</strong></summary>
     <img src="emotes/pandaAww.png" height="64" width="64"/>
     <img src="emotes/pandaBan.png" height="64" width="64"/>
     <img src="emotes/pandaDab.png" height="64" width="64"/>
@@ -26,7 +26,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 </details>
 
 <details>
-    <summary>Emotion</summary>
+    <summary><strong>Emotion</strong></summary>
     <img src="emotes/pandaAngry.png" height="64" width="64"/>
     <img src="emotes/pandaBlank.png" height="64" width="64"/>
     <img src="emotes/pandaBlush.png" height="64" width="64"/>
@@ -53,13 +53,13 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 </details>
 
 <details>
-    <summary>Miscellaneous</summary>
+    <summary><strong>Miscellaneous</strong></summary>
     <img src="emotes/pandaBadMan.png" height="64" width="64"/>
     <img src="emotes/pandaDerp.png" height="64" width="64"/>
 </details>
 
 <details>
-    <summary>National</summary>
+    <summary><strong>National</strong></summary>
     <img src="emotes/pandaBe.png" height="64" width="64"/>
     <img src="emotes/pandaDe.png" height="64" width="64"/>
     <img src="emotes/pandaFr.png" height="64" width="64"/>
@@ -70,7 +70,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 </details>
 
 <details>
-    <summary>Object</summary>
+    <summary><strong>Object</strong></summary>
     <img src="emotes/pandaBlanketHappy.png" height="64" width="64"/>
     <img src="emotes/pandaBlanketSad.png" height="64" width="64"/>
     <img src="emotes/pandaCookie.png" height="64" width="64"/>
