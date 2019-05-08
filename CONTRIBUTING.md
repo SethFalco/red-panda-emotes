@@ -3,11 +3,11 @@
 This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
 
 There are two ways to contribute to this repository:  
-1. Draw something and just create an [issue][issues] attaching your emote and asking us to asking for it to be added.
+1. Draw something and just create an [issue][issues] attaching your emote and asking for it to be added.
 2. Using [`git`][git-scm] to pull the repository, add it yourself, push it back and make a merge request.
 
 Using git is **strongly** recommended as it allows you to take credit and have your name/email listed in the [contributors][contributors] of the project, however if you're feeling lazy you can just attach your contribution as an issue and one of the maintainers will manually add it if they like it. 
-> Feel free to join out [Discord][discord] and ask someone for help if you're not sure how to use git, we'll try explain below though!
+> Feel free to join out [Discord][discord] and ask someone for help if you're not sure how to use git, we'll try to explain below though!
 
 <details>
     <summary><strong>Glossary</strong></summary>
@@ -23,23 +23,26 @@ Some of the terms used in this guide may not be friendly or obvious to people ha
 | master | The main version of the project, this is usually the most stable and up-to-date branch, others are _usually_ intended for development such as fixing an issue or adding a feature. | |
 | merge | Pulling changes made from one branch into another branch. | |
 | pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
-| terminal | A console where you can execute commands, this refers to whatever your computer has for example: Command Prompt (cmd), PowerShell or Terminal). | |
+| terminal | A console where you can execute commands, this refers to whatever your computer has, for example, Command Prompt (cmd), PowerShell or Terminal). | |
 
 </details>
 
 ### Issues
+Creating an issue is pretty simple, you just go to the original git repository, click `Issues`, the press `New issue` at the top, fill out the information and upload the image, and click `Submit issue`. From there you just wait for someone to review it.
+
+![Creating an Issue](assets/issue.gif)
 
 ### Git
-The git route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, in this guide we'll cover using CLI approach.
+The git route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, in this guide we'll cover using the CLI approach.
 
 #### Requirements
 * Have an account on GitLab.
 * Install [git][git-scm].
 
 #### Installing Git
-If you need to download git you can just download it [here][git-scm], for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevent to this repository but you're welcome to look information up online via [Google][google] or [StackOverflow][stackoverflow].
+If you need to download git you can just download it [here][git-scm], for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevant to this repository but you're welcome to look information up online via [Google][google] or [StackOverflow][stackoverflow].
 
-You'll know you have git installed correctly once you are able to do the command `git --version` in terminal and get a non-error response such as:
+You'll know you have git installed correctly once you are able to do the command `git --version` in a terminal and get a non-error response such as:
 ```sh
 $ git --version 
 git version 2.17.1
@@ -55,7 +58,7 @@ Before we continue, we want to make sure when you commit to a git repository tha
 git config --global user.name "{NAME}"
 git config --global user.email "{EMAIL}"
 ```
-> This sets your name and email address for git, this should preferably be the same as your GitLab accounts name and email, but doesn't have to be, just replace the `{NAME}` and `{EMAIL}` with your name and email.  
+> This sets your name and email address for git, this should preferably be the same as your GitLab accounts name and email but doesn't have to be, just replace the `{NAME}` and `{EMAIL}` with your name and email.  
 
 **When performing commands with git make sure you're always executing them in your local repository!**
 
@@ -71,19 +74,19 @@ Now that you've made your fork you can clone it to the computer you wish to work
 
 ![Cloning the Project](assets/clone_project.gif)
 
-It's simpler to use HTTPS if you're knew to git, but if you know what you're doing SSH is good.
+It's simpler to use HTTPS if you're new to git, but if you know what you're doing SSH is good.
 
 ```sh
 git clone https://gitlab.com/{YOUR_NAME_SPACE}/elypia-emotes.git
 ```
 > Download the repository so you can have a copy of everything in the project on your computer.
 
-This command will download the repository locally into a `elypia-emotes` directory within wherever performed the command.
+This command will download the repository locally into an `elypia-emotes` directory within wherever performed the command.
 
-At this point you now have the repository cloned and you are welcome to make changes to the contents as you desire by either replacing or adding emotes.
+At this point, you now have the repository cloned and you are welcome to make changes to the contents as you desire by either replacing or adding emotes.
 
-#### Commiting Changes
-Once you have made the changes you wish to make, for example a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
+#### Committing Changes
+Once you have made the changes you wish to make, for example, a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
 
 ```sh
 git add .
@@ -119,7 +122,7 @@ After this just click `Submit merge request`, and you'll see it [here](https://g
 
 ### Finished!
 You've just done your first pull request!  
-In future you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
+In future, you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
 
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
 [quick-start]: https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html "Git Started"
