@@ -1,0 +1,9 @@
+image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
+
+deploy:
+  stage: deploy
+  script:
+    - sh build.sh
+  artifacts:
+    paths:
+      - output

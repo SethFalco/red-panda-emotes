@@ -1,4 +1,14 @@
 # Contribution Guide
+## About
+This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
+
+There are two ways to contribute to this repository:  
+1. Draw something and just create an [issue][issues] attaching your emote and asking for it to be added.
+2. Using [`git`][git-scm] to pull the repository, add it yourself, push it back and make a merge request.
+
+Using git is **strongly** recommended as it allows you to take credit and have your name/email listed in the [contributors][contributors] of the project, however if you're feeling lazy you can just attach your contribution as an issue and one of the maintainers will manually add it if they like it. 
+> Feel free to join out [Discord][discord] and ask someone for help if you're not sure how to use git, we'll try to explain below though!
+
 <details>
     <summary><strong>Glossary</strong></summary>
 
@@ -13,54 +23,45 @@ Some of the terms used in this guide may not be friendly or obvious to people ha
 | master | The main version of the project, this is usually the most stable and up-to-date branch, others are _usually_ intended for development such as fixing an issue or adding a feature. | |
 | merge | Pulling changes made from one branch into another branch. | |
 | pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
-| terminal | A console where you can execute commands, this refers to whatever your computer has for example: Command Prompt (cmd), PowerShell or Terminal). | |
+| terminal | A console where you can execute commands, this refers to whatever your computer has, for example, Command Prompt (cmd), PowerShell or Terminal). | |
 
 </details>
 
-## About
-This will be a short document about any expectations, standards, or information you should know before you try to commit your own work, and how to contribute to this project if you're new to using git or GitLab.
+### Issues
+Creating an issue is pretty simple, you just go to the original git repository, click `Issues`, then press `New issue` at the top, fill out the information and upload the image, and click `Submit issue`. From there you just wait for someone to review it.
 
-There are two sets of instructions depending on how you want to contribute, both are perfectly viable options regardless of experience as they will achieve the same thing, in the same way.
+![Creating an Issue](assets/issue.gif)
 
-### CLI (Command Line Interface)
-The CLI route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, it's quite easy and quick to use once use to it but may require some confidence with command line.
+### Git
+The git route involves typing commands into your terminal in order to interact with your repository both locally and on GitLab, in this guide we'll cover using the CLI approach.
 
-### GUI (GitGraken)
-The GUI route involves downloading a git client which will provide a window and buttons for cloning and commiting to projects, this is generally easier if you've never used git before or simply process information better visually, this guide will use GitKraken as the example as it's free for non-commercial projects such as this one and works on Windows, Mac, and Linux.
+#### Requirements
+* Have an account on GitLab.
+* Install [git][git-scm].
 
-## Requirements
-* In order to contribute you must have a GitLab account which you can make for free on this site.
-* Either install:  
-  * [git](https://git-scm.com/) if you want to take the CLI route.
-  * A git client such as [GitKraken](https://www.gitkraken.com/invite?referralCode=bEXJc8LN) if you want to take the GUI route.
+#### Installing Git
+If you need to download git you can just download it [here][git-scm], for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevant to this repository but you're welcome to look information up online via [Google][google] or [StackOverflow][stackoverflow].
 
-### Installing Git
-If you need to download git you can just download it [here](https://git-scm.com/), for most of the installation you can just use the default settings, this guide will not cover what the settings mean as they aren't relevent to this repository but you're welcome to look information up online via [Google](https://www.google.com/) or [StackOverflow](https://stackoverflow.com/).
-
-You'll know you have git installed correctly once you are able to do the command `git --version` in terminal and get a non-error response such as:
+You'll know you have git installed correctly once you are able to do the command `git --version` in a terminal and get a non-error response such as:
 ```sh
 $ git --version 
 git version 2.17.1
 ```
+> Prints the currently installed version of git, _if_ it's installed.
+
 Remember you may need to restart your terminal instance after installation to make sure changes are in effect.
 
-> When performing commands with git make sure you're always executing them in your local repository!
+#### Configuring Credentials
+Before we continue, we want to make sure when you commit to a git repository that it provides your name and email address, this is a nice thing to do in general, but especially helpful if you're hoping to actually have your name credited in the [contributors][contributors] section.
 
-### Installing GitKraken
-You can download it [here](https://www.gitkraken.com/invite?referralCode=bEXJc8LN), it's a simple installation, however you must have an account with GitHub or GitKraken in order to use it.
+```sh
+git config --global user.name "{NAME}"
+git config --global user.email "{EMAIL}"
+```
+> This sets your name and email address for git, this should preferably be the same as your GitLab accounts name and email but doesn't have to be, just replace the `{NAME}` and `{EMAIL}` with your name and email.  
 
-Once it's installed be sure to check your emails to activate your account if required.
+**When performing commands with git make sure you're always executing them in your local repository!**
 
-#### GitLab Authentication
-This will allow GitKraken to freely pull/push to your GitLab repositories without pestering for your credentials over and over.
-
-1. Click the menu (3 bars) icon at the top right.
-2. Navigate to: `Preferences > Authentication > GitLab.com`
-3. Click `Connect to GitLab`.
-4. Authenticate to your GitLab account.
-5. `Generate SSH key and add to GitLab`
-
-### Contributing
 #### Forking the Project
 The first step is to fork the project, this can be done via the GitLab website by just clicking the `Fork` button on the project home.
 
@@ -69,39 +70,23 @@ The first step is to fork the project, this can be done via the GitLab website b
 Forking the project will clone the project to your namespace so that you can track your own copy of the repository.
 
 #### Cloning your Fork Locally
-Now that you've made your fork you can clone it to the computer you wish to work from, you can get the clone URL from the top of **_your_** forked project and do it either through CLI or GUI.  
-
-
-<details>
-    <summary><strong>CLI</strong></summary>
+Now that you've made your fork you can clone it to the computer you wish to work from, you can get the clone URL from the top of **_your_** forked project.
 
 ![Cloning the Project](assets/clone_project.gif)
 
-It's simpler to use HTTPS but if you know what you're doing feel free to use SSH.  
+It's simpler to use HTTPS if you're new to git, but if you know what you're doing SSH is good.
 
 ```sh
 git clone https://gitlab.com/{YOUR_NAME_SPACE}/elypia-emotes.git
 ```
-With CLI this is all you have to do and you'll find a new directory in the location you did this command called `elypia-emotes` which contains the repository files.
-</details>
+> Download the repository so you can have a copy of everything in the project on your computer.
 
-<details>
-    <summary><strong>GUI</strong></summary>
+This command will download the repository locally into an `elypia-emotes` directory within wherever performed the command.
 
-1. Navigate to: `Clone a repo > GitLab.com`
-2. Specify any location to clone your repository.
-3. Select the emote repository under your account.
+At this point, you now have the repository cloned and you are welcome to make changes to the contents as you desire by either replacing or adding emotes.
 
-![Cloning the Project](assets/clone_project_gui.gif)
-</details>
-
-At this point you now have the repository cloned and you are welcome to make changes to the contents as you desire by either replacing or adding emotes.
-
-#### Commiting Changes
-Once you have made the changes you wish to make, for example a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
-
-<details>
-    <summary><strong>CLI</strong></summary>
+#### Committing Changes
+Once you have made the changes you wish to make, for example, a change to an existing emote, or adding your own new emote, you need to add, commit and push the changes.
 
 ```sh
 git add .
@@ -117,25 +102,13 @@ git commit -m "{COMMIT_MESSAGE}"
 git push origin/master
 ```
 > Push the changes to your repository on GitLab so they are available in your fork of the elypia-emote repository.
-</details>
-
-<details>
-    <summary><strong>GUI</strong></summary>
-
-1. `Stage all changes`
-2. Give the commit a title.
-3. `Commit changes to X file(s)`
-4. `Push`
-
-![Pushing the Project](assets/push_project.gif)
-</details>
 
 You'll now find your changes on your project on GitLab!
 
 #### Pull Request
-Now that your changes are online and with GitLab, you'll able to make a pull request to the original branch under the Elypia namespace.
+Now that your changes are online and with GitLab, you'll be able to make a pull request to the original branch under the Elypia namespace.
 
-If you go to the elypia-emote repository under your namespace, you should see a message that you can do a pull request to the source branch (this refers to the original [Elypia/elypia-emote](https://gitlab.com/Elypia/elypia-emotes/) branch you cloned from.)  
+If you go to the elypia-emote repository under your namespace, you should see a message that you can do a pull request to the source branch (this refers to the original [Elypia/elypia-emote](https://gitlab.com/Elypia/elypia-
 If you don't see a message like that, you can go to the `Merge Requests` tab and click `Create merge request` manually.
 
 Make sure the merge request says:  
@@ -146,8 +119,15 @@ If it matches the above then you're trying to merge to the right place, if not s
 This is also a good place to get your pull request a title and description so we have more information on what you changed and why!
 
 After this just click `Submit merge request`, and you'll see it [here](https://gitlab.com/Elypia/elypia-emotes/) for the repository maintainers to review.
-</details>
 
-### Gratz!
+### Finished!
 You've just done your first pull request!  
-In future you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
+In future, you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
+
+[contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
+[quick-start]: https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html "Git Started"
+[discord]: https://discord.gg/hprGMaM "Elypia on Discord"
+[git-scm]: https://git-scm.com/ "Download Git"
+[issues]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
+[google]: https://google.com/ "Google"
+[stackoverflow]: https://stackoverflow.com/ "StackOverflow"
