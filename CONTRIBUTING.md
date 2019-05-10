@@ -28,7 +28,7 @@ Some of the terms used in this guide may not be friendly or obvious to people ha
 </details>
 
 ### Issues
-Creating an issue is pretty simple, you just go to the original git repository, click `Issues`, the press `New issue` at the top, fill out the information and upload the image, and click `Submit issue`. From there you just wait for someone to review it.
+Creating an issue is pretty simple, you just go to the original git repository, click `Issues`, then press `New issue` at the top, fill out the information and upload the image, and click `Submit issue`. From there you just wait for someone to review it.
 
 ![Creating an Issue](assets/issue.gif)
 
@@ -106,7 +106,7 @@ git push origin/master
 You'll now find your changes on your project on GitLab!
 
 #### Pull Request
-Now that your changes are online and with GitLab, you'll able to make a pull request to the original branch under the Elypia namespace.
+Now that your changes are online and with GitLab, you'll be able to make a pull request to the original branch under the Elypia namespace.
 
 If you go to the elypia-emote repository under your namespace, you should see a message that you can do a pull request to the source branch (this refers to the original [Elypia/elypia-emote](https://gitlab.com/Elypia/elypia-
 If you don't see a message like that, you can go to the `Merge Requests` tab and click `Create merge request` manually.
