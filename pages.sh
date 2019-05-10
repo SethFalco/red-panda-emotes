@@ -17,18 +17,19 @@ do
             ;; 
     esac
 
-    montage                             \
-        -background none                \
-        -geometry +2+2                  \
-        -tile 8x                        \
-    output/${glob}                      \
-        -gravity north                  \
-        -extent 128x144                 \
-        -gravity south                  \
-        -fill '#0008'                   \
-        -draw 'rectangle 0,128,144,144' \
-        -fill white                     \
-        -pointsize 14                   \
-        -annotate +0+0 %t               \
+    montage                              \
+        -background none                 \
+        -geometry +2+2                   \
+        -tile 8x                         \
+    output/${glob}                       \
+        -gravity north                   \
+        -extent 128x144                  \
+        -gravity south                   \
+        -fill '#0008'                    \
+        -draw 'rectangle 0,128,144,144'  \
+        -fill white                      \
+        -pointsize 14                    \
+        -font DejaVu-LGC-Sans-ExtraLight \
+        -annotate +0+0 %t                \
     public/${output}.png
 done
