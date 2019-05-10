@@ -4,6 +4,7 @@ pages:
   stage: deploy
   script:
     - sh build.sh
+    - sh pages.sh
   artifacts:
     paths:
       - output
