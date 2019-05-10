@@ -18,6 +18,6 @@ You can download all emotes [here][download]!
 [gitlab-build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
 [gitlab-pipeline]: https://gitlab.com/Elypia/elypia-emotes/pipelines "GitLab Pipeline"
 
-[download]: https://elypia.gitlab.io/elypiai/emotes.zip "All Emotes Packaged"
-[colors]: https://elypia.gitlab.io/elypiai/colors.png "All Colors"
-[emotes]: https://elypia.gitlab.io/elypiai/emotes.png "All Unique Emotes"
+[download]: https://elypia.gitlab.io/elypia-emotes/emotes.zip "All Emotes Packaged"
+[colors]: https://elypia.gitlab.io/elypia-emotes/colors.png "All Colors"
+[emotes]: https://elypia.gitlab.io/elypia-emotes/emotes.png "All Unique Emotes"
