@@ -3,7 +3,8 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 **For information on [contributing](CONTRIBUTING.md) please check out that file.**
 
 ## Download
-You can download all emotes [here][download]!
+You can download all emotes [here][download]!  
+Sometimes GitLab Pages isn't up to date with the repo, if there's an emote you want but you can't find it in the archive feel free to check the [latest pipeline][gitlab-pipeline] and download the `Artifacts`, it should be available there!
 
 ## Emotes
 ### All Colors
