@@ -1,19 +1,90 @@
-# Elypia Emotes
+# Elypia Emotes [![Discord][discord-members]][discord] [![GitLab Build][gitlab-build]][gitlab]
 All emotes for Elypia which are open-source and available via the Apache 2.0 license.  
 **For information on [contributing](CONTRIBUTING.md) please check out that file.**
 
 ## Emotes
-### National Emotes
-![pandaUs](emotes/pandaUs.png) ![pandaPl](emotes/pandaPl.png) ![pandaFr](emotes/pandaFr.png) ![pandaGb](emotes/pandaGb.png) ![pandaNo](emotes/pandaNo.png) ![pandaDe](emotes/pandaDe.png) ![pandaBe](emotes/pandaBe.png)
+> Collectively all the emotes add up to be very large so they have been tucked away inside of `details` tags so you download less at a time while browsing the page.
 
-### Emotion
-![pandaAngry](emotes/pandaAngry.png) ![pandaBlank](emotes/pandaBlank.png) ![pandaBlush](emotes/pandaBlush.png) ![pandaBrokenHeart](emotes/pandaBrokenHeart.png) ![pandaCheeky](emotes/pandaCheeky.png) ![pandaContent](emotes/pandaContent.png) ![pandaCool](emotes/pandaCool.png) ![pandaCry](emotes/pandaCry.png) ![pandaDx](emotes/pandaDx.png) ![pandaGiggle](emotes/pandaGiggle.png) ![pandaHeart](emotes/pandaHeart.png) ![pandaOhNo](emotes/pandaOhNo.png) ![pandaWut](emotes/pandaWut.png) ![pandaWhaat](emotes/pandaWhaat.png) ![pandaSweat](emotes/pandaSweat.png) ![pandaSurprised](emotes/pandaSurprised.png) ![pandaSparkle](emotes/pandaSparkle.png) ![pandaSob](emotes/pandaSob.png) ![pandaSmile](emotes/pandaSmile.png) ![pandaSideEye](emotes/pandaSideEye.png) ![pandaShock](emotes/pandaShock.png) ![pandaSassy](emotes/pandaSassy.png)![pandaRsmile](emotes/pandaRsmile.png) 
+<details>
+    <summary><strong>Action</strong></summary>
+    <img src="emotes/pandaAww.png" height="64" width="64"/>
+    <img src="emotes/pandaBan.png" height="64" width="64"/>
+    <img src="emotes/pandaDab.png" height="64" width="64"/>
+    <img src="emotes/pandaFinger.png" height="64" width="64"/>
+    <img src="emotes/pandaHide.png" height="64" width="64"/>
+    <img src="emotes/pandaHug.png" height="64" width="64"/>
+    <img src="emotes/pandaPet.png" height="64" width="64"/>
+    <img src="emotes/pandaReachLeft.png" height="64" width="64"/>
+    <img src="emotes/pandaReachRight.png" height="64" width="64"/>
+    <img src="emotes/pandaRhug.png" height="64" width="64"/>
+    <img src="emotes/pandaSleepBubble.png" height="64" width="64"/>
+    <img src="emotes/pandaSleeping.png" height="64" width="64"/>
+    <img src="emotes/pandaStare.jpg" height="64" width="64"/>
+    <img src="emotes/pandaSip.png" height="64" width="64"/>
+    <img src="emotes/pandaThumbsUp.png" height="64" width="64"/>
+    <img src="emotes/pandaWink.png" height="64" width="64"/>
+</details>
 
-### Action
-![pandaAww](emotes/pandaAww.png) ![pandaBan](emotes/pandaBan.png) ![pandaDab](emotes/pandaDab.png) ![pandaFinger](emotes/pandaFinger.png) ![pandaHide](emotes/pandaHide.png)![pandaHug](emotes/pandaHug.png) ![pandaPet](emotes/pandaPet.png) ![pandaWink](emotes/pandaWink.png) ![pandaThumbsUp](emotes/pandaThumbsUp.png) ![pandaStare](emotes/pandaStare.jpg) ![pandaSleeping](emotes/pandaSleeping.png) ![pandaSleepBubble](emotes/pandaSleepBubble.png) ![pandaSip](emotes/pandaSip.png) ![pandaRhug](emotes/pandaRhug.png) ![pandaReachRight](emotes/pandaReachRight.png) ![pandaReachLeft](emotes/pandaReachLeft.png)
+<details>
+    <summary><strong>Emotion</strong></summary>
+    <img src="emotes/pandaAngry.png" height="64" width="64"/>
+    <img src="emotes/pandaBlank.png" height="64" width="64"/>
+    <img src="emotes/pandaBlush.png" height="64" width="64"/>
+    <img src="emotes/pandaBrokenHeart.png" height="64" width="64"/>
+    <img src="emotes/pandaCheeky.png" height="64" width="64"/>
+    <img src="emotes/pandaContent.png" height="64" width="64"/>
+    <img src="emotes/pandaCool.png" height="64" width="64"/>
+    <img src="emotes/pandaCry.png" height="64" width="64"/>
+    <img src="emotes/pandaDx.png" height="64" width="64"/>
+    <img src="emotes/pandaGiggle.png" height="64" width="64"/>
+    <img src="emotes/pandaHeart.png" height="64" width="64"/>
+    <img src="emotes/pandaOhNo.png" height="64" width="64"/>
+    <img src="emotes/pandaRsmile.png" height="64" width="64"/>
+    <img src="emotes/pandaSassy.png" height="64" width="64"/>
+    <img src="emotes/pandaShock.png" height="64" width="64"/>
+    <img src="emotes/pandaSideEye.png" height="64" width="64"/>
+    <img src="emotes/pandaSmile.png" height="64" width="64"/>
+    <img src="emotes/pandaSob.png" height="64" width="64"/>
+    <img src="emotes/pandaSparkle.png" height="64" width="64"/>
+    <img src="emotes/pandaSurprised.png" height="64" width="64"/>
+    <img src="emotes/pandaSweat.png" height="64" width="64"/>
+    <img src="emotes/pandaWhaat.png" height="64" width="64"/>
+    <img src="emotes/pandaWut.png" height="64" width="64"/>
+</details>
 
-### Object
-![pandaCookie](emotes/pandaCookie.png) ![pandaCookie3](emotes/pandaCookie3.png) ![pandaEquiped](emotes/pandaEquiped.png) ![pandaHammer](emotes/pandaHammer.png) ![pandaTea](emotes/pandaTea.png) ![pandaStone](emotes/pandaStone.png) ![pandaSpoon](emotes/pandaSpoon.png) ![pandaPillowYes](emotes/pandaPillowYes.png) ![pandaPillowNo](emotes/pandaPillowNo.png) ![pandaBlanketSad](emotes/pandaBlanketSad.png) ![pandaBlanketHappy](emotes/pandaBlanketHappy.png)
+<details>
+    <summary><strong>Miscellaneous</strong></summary>
+    <img src="emotes/pandaBadMan.png" height="64" width="64"/>
+    <img src="emotes/pandaDerp.png" height="64" width="64"/>
+</details>
 
-### Misc
-![pandaBadMan](emotes/pandaBadMan.png) ![pandaDerp](emotes/pandaDerp.png)
+<details>
+    <summary><strong>National</strong></summary>
+    <img src="emotes/pandaBe.png" height="64" width="64"/>
+    <img src="emotes/pandaDe.png" height="64" width="64"/>
+    <img src="emotes/pandaFr.png" height="64" width="64"/>
+    <img src="emotes/pandaGb.png" height="64" width="64"/>
+    <img src="emotes/pandaNo.png" height="64" width="64"/>
+    <img src="emotes/pandaPl.png" height="64" width="64"/>
+    <img src="emotes/pandaUs.png" height="64" width="64"/>
+</details>
+
+<details>
+    <summary><strong>Object</strong></summary>
+    <img src="emotes/pandaBlanketHappy.png" height="64" width="64"/>
+    <img src="emotes/pandaBlanketSad.png" height="64" width="64"/>
+    <img src="emotes/pandaCookie.png" height="64" width="64"/>
+    <img src="emotes/pandaCookie3.png" height="64" width="64"/>
+    <img src="emotes/pandaEquiped.png" height="64" width="64"/>
+    <img src="emotes/pandaHammer.png" height="64" width="64"/>
+    <img src="emotes/pandaPillowNo.png" height="64" width="64"/>
+    <img src="emotes/pandaPillowYes.png" height="64" width="64"/>
+    <img src="emotes/pandaSpoon.png" height="64" width="64"/>
+    <img src="emotes/pandaStone.png" height="64" width="64"/>
+    <img src="emotes/pandaTea.png" height="64" width="64"/>
+</details>
+
+[discord]: https://discord.gg/hprGMaM "Discord Invite"
+[discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
+[gitlab]: https://gitlab.com/Elypia/elypia-emotes/commits/master "Repository on GitLab"
+[gitlab-build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
