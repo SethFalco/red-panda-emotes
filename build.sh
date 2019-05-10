@@ -1,16 +1,42 @@
 #!/bin/sh
-mkdir output/
-cd emotes/
+if [ -d output/ ]; then rm -r output/; fi
 
-for s in 256 128 64 32
+for file in emotes/*
 do
-    mkdir ../output/${s}x${s}
-    
-    for f in ./*
+    filename=$(identify -format "%t" ${file})
+
+    # When adding a color, just append the hue parameter here, and add
+    # the name of the color the emote should become to the case.
+    for hue in "100,100,100" "100,100,0" "100,100,166" "100,100,125"  "100,100,66.6" 
     do
-        convert "./${f}" -resize ${s}x${s} "../output/${s}x${s}/${f}";
+        case ${hue} in
+            "100,100,100")
+                color=red
+                ;;
+            "100,100,0")
+                color=blue
+                ;;
+            "100,100,166")
+                color=green
+                ;;
+            "100,100,125")
+                color=yellow
+                ;;
+            "100,100,66.6")
+                color=pink
+                ;;
+        esac
+
+        # When adding a new resolution, just append the output size here.
+        for size in 512 258 128 64 32
+        do
+            mkdir -p output/${color}/${size}px/
+
+            if [ -f "masks/${filename}Mask.png" ]; then
+                convert -mask "masks/${filename}Mask.png" -modulate ${hue} -resize ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
+            else
+                convert -modulate ${hue} -resize ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
+            fi
+        done
     done
 done
-
-cd ..
-mv emotes/ output/src/
