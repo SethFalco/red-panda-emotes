@@ -1,5 +1,6 @@
 #!/bin/sh
 if [ -d output/ ]; then rm -r output/; fi
+if [ -d public/ ]; then rm -r public/; fi
 
 for file in emotes/*
 do
@@ -35,18 +36,52 @@ do
             mkdir -p output/${color}/${size}px/
 
             if [ -f "masks/${filename}Mask.png" ]; then
-                mask="-mask masks/${filename}Mask.png"
+                mask="-clip-mask masks/${filename}Mask.png"
             else
                 unset mask
             fi
 
-            convert                                      \
-                ${mask}                                  \
-                -modulate ${hue}                         \
-                -filter Catrom                           \
-                -resize ${size}x${size}                  \
-            ${file}                                      \
-            "output/${color}/${size}px/${filename}.png";
+            magick                                          \
+                ${file}                                     \
+                    ${mask}                                 \
+                    -modulate ${hue}                        \
+                    +clip-mask                              \
+                    -filter Catrom                          \
+                    -resize ${size}X${size}                 \
+                "output/${color}/${size}px/${filename}.png"
         done
     done
+done
+
+mkdir public/
+zip -r public/emotes.zip output/ 
+
+for i in 0 1
+do
+    case ${i} in
+        0)
+            glob="*/128px/pandaAww.png"
+            output="colors"
+            ;;
+        1)
+            glob="red/128px/*"
+            output="emotes"
+            ;; 
+    esac
+
+    montage                                  \
+            -background none                 \
+            -geometry +2+2                   \
+            -tile 8x                         \
+        output/${glob}                       \
+            -gravity north                   \
+            -extent 128x144                  \
+            -gravity south                   \
+            -fill '#0008'                    \
+            -draw 'rectangle 0,128,144,144'  \
+            -fill white                      \
+            -pointsize 14                    \
+            -font DejaVu-LGC-Sans-ExtraLight \
+            -annotate +0+0 %t                \
+        public/${output}.png
 done
