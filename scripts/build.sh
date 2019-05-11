@@ -40,7 +40,13 @@ do
                 unset mask
             fi
 
-            convert ${mask} -modulate ${hue} -scale ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
+            convert                                      \
+                ${mask}                                  \
+                -modulate ${hue}                         \
+                -filter Catrom                           \
+                -resize ${size}x${size}                  \
+            ${file}                                      \
+            "output/${color}/${size}px/${filename}.png";
         done
     done
 done
