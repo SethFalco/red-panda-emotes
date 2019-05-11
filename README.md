@@ -1,6 +1,8 @@
 # Elypia Emotes [![Discord][discord-members]][discord] [![GitLab Build][gitlab-build]][gitlab]
 All emotes for Elypia which are open-source and available via the Apache 2.0 license.  
-**For information on [contributing](CONTRIBUTING.md) please check out that file.**
+For information on [contributing](CONTRIBUTING.md) please check out that file. 
+
+Currently all emotes are being redone in HD and with an image mask for better quality and to allow multiple colors! 
 
 ## Download
 You can download all emotes [here][download]!  
