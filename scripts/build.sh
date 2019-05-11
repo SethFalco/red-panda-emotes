@@ -8,7 +8,7 @@ do
 
     # When adding a color, just append the hue parameter here, and add
     # the name of the color the emote should become to the case.
-    for hue in "100,100,100" "100,100,0" "100,100,166" "100,100,125" "100,100,66.6" 
+    for hue in "100,100,100" "100,100,0" "100,100,166" "100,100,66.6" "100,100,125"
     do
         case ${hue} in
             "100,100,100")
@@ -20,11 +20,12 @@ do
             "100,100,166")
                 color=green
                 ;;
-            "100,100,125")
-                color=yellow
-                ;;
+
             "100,100,66.6")
                 color=pink
+                ;;
+            "100,100,125")
+                color=yellow
                 ;;
         esac
 
@@ -34,10 +35,12 @@ do
             mkdir -p output/${color}/${size}px/
 
             if [ -f "masks/${filename}Mask.png" ]; then
-                convert -mask "masks/${filename}Mask.png" -modulate ${hue} -resize ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
+                mask="-mask masks/${filename}Mask.png"
             else
-                convert -modulate ${hue} -resize ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
+                unset mask
             fi
+
+            convert ${mask} -modulate ${hue} -scale ${size}x${size} ${file} "output/${color}/${size}px/${filename}.png";
         done
     done
 done

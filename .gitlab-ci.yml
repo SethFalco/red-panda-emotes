@@ -3,8 +3,8 @@ image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
 pages:
   stage: deploy
   script:
-    - sh build.sh
-    - sh pages.sh
+    - sh scripts/build.sh
+    - sh scripts/pages.sh
   artifacts:
     paths:
       - output
