@@ -31,7 +31,7 @@ do
         esac
 
         # When adding a new resolution, just append the output size here.
-        for size in 512 258 112 128 64 56 28
+        for size in 512 258 128 112 72 64 56 36 28 18
         do
             mkdir -p output/${color}/${size}px/
 
