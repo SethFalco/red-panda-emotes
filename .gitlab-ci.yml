@@ -1,5 +1,10 @@
 image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
 
+test:
+  stage: test
+  script:
+    - sh scripts/test.sh
+
 pages:
   stage: deploy
   script:
