@@ -99,7 +99,7 @@ git commit -m "{COMMIT_MESSAGE}"
 > Commit the changes to your local repository on your computer with the message you set, replace `{COMMIT_MESSAGE}` with a message that represents the changes in this commit.
 
 ```sh
-git push origin/master
+git push origin master
 ```
 > Push the changes to your repository on GitLab so they are available in your fork of the elypia-emote repository.
 
