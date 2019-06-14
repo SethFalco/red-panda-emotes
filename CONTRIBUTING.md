@@ -12,18 +12,18 @@ Using git is **strongly** recommended as it allows you to take credit and have y
 <details>
     <summary><strong>Glossary</strong></summary>
 
-Some of the terms used in this guide may not be friendly or obvious to people haven't used git before so here is a short key.
+Some terms used in this guide may not be friendly or obvious to people haven't used git before so here is a short key.
 
-| Word | Definition | Synonyms |
-|------|------------|----------|
-| git  | Git is a version control system optimised for managing changes in files. | |
-| clone | Downloading a copy of a project to either your own namespace or filesystem. | |
-| fork | Cloning a project to your own namespace in order to make changes. | |
-| branch | A single version of the repository. | version |
-| master | The main version of the project, this is usually the most stable and up-to-date branch, others are _usually_ intended for development such as fixing an issue or adding a feature. | |
-| merge | Pulling changes made from one branch into another branch. | |
-| pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly. | merge request |
-| terminal | A console where you can execute commands, this refers to whatever your computer has, for example, Command Prompt (cmd), PowerShell or Terminal). | |
+| Word         | Definition                                                                                                                                                                                                                           | Synonyms      |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| git          | Git is a version control system optimized for managing changes in files.                                                                                                                                                             |               |
+| clone        | Downloading a copy of a project to either your own namespace or file system.                                                                                                                                                         |               |
+| fork         | Cloning a project to your own namespace in order to make changes.                                                                                                                                                                    |               |
+| branch       | A single version of the repository.                                                                                                                                                                                                  | version       |
+| master       | The main version of the project, this is usually a stable and up-to-date branch which can include changes that haven't been released yet, others are _usually_ intended for development such as fixing an issue or adding a feature. |               |
+| merge        | Pulling changes made from one branch into another branch.                                                                                                                                                                            |               |
+| pull request | Requesting changes from your fork to be merged to a branch you don't have permission to merge to directly.                                                                                                                           | merge request |
+| terminal     | A console where you can execute commands, this refers to whatever your computer has, for example, Command Prompt (cmd), PowerShell or Terminal).                                                                                     |               |
 
 </details>
 
@@ -122,7 +122,7 @@ After this just click `Submit merge request`, and you'll see it [here](https://g
 
 ### Finished!
 You've just done your first pull request!  
-In future, you'll only have to do the steps starting from [`Commiting Changes`](#commiting-changes) so it should be much easier as time passes.
+In future, you'll only have to do the steps starting from [`Committing Changes`](#committing-changes) so it should be much easier as time passes.
 
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
 [quick-start]: https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html "Git Started"
