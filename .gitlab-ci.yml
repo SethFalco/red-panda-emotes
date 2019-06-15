@@ -1,15 +1,32 @@
 image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
 
+cache:
+  key: $CI_PIPELINE_ID
+  paths:
+    - output/
+
+stages:
+  - test
+  - build
+  - deploy
+
 test:
   stage: test
-  script:
+  script: 
     - sh scripts/test.sh
 
-pages:
-  stage: deploy
+build:
+  stage: build
   script:
     - sh scripts/build.sh
   artifacts:
     paths:
-      - output
-      - public
+      - output/
+
+pages:
+  stage: deploy
+  script:
+    - sh scripts/pages.sh
+  artifacts:
+    paths:
+      - public/
