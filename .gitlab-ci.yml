@@ -1,4 +1,4 @@
-image: registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0
+image: registry.gitlab.com/elypia/elypia-emotes/imagemagick
 
 cache:
   key: $CI_PIPELINE_ID
@@ -9,6 +9,7 @@ stages:
   - deploy
 
 test:
+  image: alpine:3.9.4
   stage: test
   script: 
     - sh scripts/test.sh
@@ -16,7 +17,7 @@ test:
 build:
   stage: build
   script:
-    - sh scripts/build.sh
+    - bash scripts/build.sh
   cache:
     policy: push
     paths:

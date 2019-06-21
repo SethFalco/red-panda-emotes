@@ -1,8 +1,8 @@
 #!/bin/sh
 for file in masks/*
 do
-    mask=$(identify -format "%f" ${file})
-    emote=$(echo ${mask} | sed -e "s/Mask//g")
+    mask=${file#*masks/}
+    emote=${mask/Mask/}
 
     if [ ! -f "emotes/${emote}" ]; then
         error=1

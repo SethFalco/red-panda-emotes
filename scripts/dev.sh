@@ -1,10 +1,15 @@
 #!/bin/bash
-tag="registry.gitlab.com/elypia/elypia-emotes/imagemagick:7.0.8.44-r0"
+tag="registry.gitlab.com/elypia/elypia-emotes/imagemagick"
 
 # ${1} to specify arguments like --no-cache
-docker build ${1} -t ${tag} .
+cat Dockerfile | docker build ${1} -t ${tag} -
 
-sudo docker run -v `pwd`:/home/imagemagick                                    \
-    ${tag}                                                                    \
-    /bin/sh                                                                   \
-        -c "sh scripts/test.sh && sh scripts/build.sh && sh scripts/pages.sh"
+docker run -v `pwd`:/home/imagemagick                                           \
+    ${tag}                                                                      \
+    /bin/sh                                                                     \
+        -c "sh scripts/test.sh && bash scripts/build.sh && sh scripts/pages.sh"
+
+# If ${2} is true, push the image to GitLab.
+if [ "${2}" = "true" ]; then
+    docker push ${tag}
+fi
