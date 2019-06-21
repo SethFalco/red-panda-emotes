@@ -9,10 +9,10 @@ stages:
   - deploy
 
 test:
-  image: alpine:3.9.4
+  image: bash:5.0.7
   stage: test
   script: 
-    - sh scripts/test.sh
+    - bash scripts/test.sh
 
 build:
   stage: build
