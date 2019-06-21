@@ -1,15 +1,18 @@
 #!/bin/bash
-tag="registry.gitlab.com/elypia/elypia-emotes/imagemagick"
+tag=${1}
 
-# ${1} to specify arguments like --no-cache
-cat Dockerfile | docker build ${1} -t ${tag} -
-
-docker run -v `pwd`:/home/imagemagick                                             \
-    ${tag}                                                                        \
-    /bin/sh                                                                       \
-        -c "bash scripts/test.sh && bash scripts/build.sh && sh scripts/pages.sh"
-
-# If ${2} is true, push the image to GitLab.
-if [ "${2}" = "true" ]; then
-    docker push ${tag}
+if [ -z "${tag}" ]
+then 
+    tag="/imagemagick" 
 fi
+
+docker run -v $(pwd):/home/imagemagick               \
+    "registry.gitlab.com/elypia/elypia-emotes${tag}" \
+    /bin/sh                                          \
+        -c "bash scripts/test.sh                  && \
+            bash scripts/build.sh                 && \
+            sh scripts/pages.sh"
+
+# This is for testing images, it defaults to the latest
+# ImageMagick image, however can be overridden by specifying
+# an image name as the first parameter.
