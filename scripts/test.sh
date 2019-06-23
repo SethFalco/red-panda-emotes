@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 for file in masks/*
 do
     mask=${file#*masks/}
