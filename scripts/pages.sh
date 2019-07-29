@@ -20,8 +20,8 @@ exportmontage() {
 if [ -d public/ ]; then rm -rf public/*; fi
 
 mkdir -p public/
-zip -rq public/emotes.zip output/ 
+zip -rq public/emotes.zip output/ LICENSE
 
 # Create montages by using a glob and name of the montage output
 exportmontage "*/128px/*pandaAww.png" "colors"
-exportmontage "red/128px/*"           "emotes"
+exportmontage "src/128px/*"           "emotes"
