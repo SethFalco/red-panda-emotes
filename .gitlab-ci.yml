@@ -25,6 +25,7 @@ build:
   artifacts:
     paths:
       - output/
+      - LICENSE
 
 pages:
   stage: deploy
