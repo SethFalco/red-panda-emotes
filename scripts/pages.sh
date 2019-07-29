@@ -24,4 +24,4 @@ zip -rq public/emotes.zip output/
 
 # Create montages by using a glob and name of the montage output
 exportmontage "*/128px/*pandaAww.png" "colors"
-exportmontage "red/128px/*"           "emotes"
+exportmontage "src/128px/*"           "emotes"
