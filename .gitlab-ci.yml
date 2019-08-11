@@ -1,35 +1,29 @@
-image: registry.gitlab.com/elypia/elypia-emotes:experimental
+image: registry.gitlab.com/elypia/elypia-emotes:latest
 
 cache:
   key: $CI_PIPELINE_ID
 
 # Prepare coverers testing and building, this is to push on speed as they can
 # be done in parralel. This should make succesful builds faster, however
-# make builds that fail take potentially longer to fail.
+# may make builds that fail take potentially longer to fail.
 stages:
-  - test
-  - build
+  - prepare
   - deploy
 
 test:
   image: bash:5.0.7
-  stage: test
+  stage: prepare
   script: 
     - bash scripts/test.sh
 
 build:
-  stage: build
+  stage: prepare
   script:
     - bash scripts/build.sh
   cache:
     policy: push
     paths:
-      - output/
       - public/
-  artifacts:
-    paths:
-      - output/
-      - LICENSE
 
 pages:
   image: alpine:3.10.1
@@ -39,8 +33,8 @@ pages:
   cache:
     policy: pull
     paths:
-      - output/
       - public/
   artifacts:
     paths:
       - public/
+      - LICENSE
