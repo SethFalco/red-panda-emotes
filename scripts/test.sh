@@ -1,12 +1,12 @@
 #!/bin/bash
-for file in masks/*
+for FILE in masks/*
 do
-    mask=${file#*masks/}
-    emote=${mask/Mask/}
+    MASK=${FILE#*masks/}
+    EMOTE=${MASK/Mask/}
 
-    if [ ! -f "emotes/${emote}" ]; then
+    if [ ! -f "emotes/${EMOTE}" ]; then
         error=1
-        echo "Failed to find emote for mask: ${mask}"
+        echo "Failed to find emote for mask: ${MASK}"
     fi
 done
 
