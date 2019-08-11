@@ -6,6 +6,5 @@ docker run -v ${pwd}:/home/imagemagick         `
             bash scripts/build.sh           && `
             sh scripts/pages.sh"
 
-# This will just used the repositories latest image
-# only which is considered a stable image
-# ready to build on. This and can not do anything else.
+# This will only use the repositories latest image which is considered a stable
+# and ready to build on, and won't do much else.

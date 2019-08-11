@@ -41,3 +41,31 @@ do
     emote_export_arg=${export_arg//\[EMOTE\]/${emote}}
     magick ${file} -filter Catrom ${mask_arg} ${emote_export_arg} NULL:
 done
+
+# Make a public folder, things built here will get published on GitLab pages.
+if [ -d public/ ]; then rm -rf public/*; fi
+mkdir public
+
+exportmontage() {
+    montage                             \
+        -background none                \
+        -geometry +2+2                  \
+        -tile 8x                        \
+    output/${1}                         \
+        -gravity north                  \
+        -extent 128x144                 \
+        -gravity south                  \
+        -fill '#0008'                   \
+        -draw 'rectangle 0,128,144,144' \
+        -fill white                     \
+        -pointsize 14                   \
+        -font DejaVu-LGC-Sans-Mono      \
+        -annotate +0+0 %t               \
+    public/${2}.png
+}
+
+# Create montages by using a glob and name of the montage output
+exportmontage "*/128px/*pandaAww.png" "colors"
+exportmontage "src/128px/*"           "emotes"
+
+zip -rq public/emotes.zip output/ LICENSE
