@@ -1,4 +1,4 @@
-image: registry.gitlab.com/elypia/elypia-emotes:latest
+image: registry.gitlab.com/elypia/elypia-emotes:experimental
 
 cache:
   key: $CI_PIPELINE_ID
