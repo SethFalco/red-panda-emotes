@@ -15,11 +15,11 @@ you try to commit your own work, and how to contribute to this project if you're
 > All other files in the directory are for documentation, or maintenance, you can ignore them
 > if you're only planning to contribute artwork.
 
-### Naming Conventions
+### Naming Conventions and Guidelines
 | Type       | Name             | Notes                                                                                                         |
 |------------|------------------|---------------------------------------------------------------------------------------------------------------|
-| Emotes     | pandaXyz.png     | `camel-case`, `png`                                                                                           |
-| Masks      | pandaXyzMask.png | `camel-case`, `png` - This isn't required if every pixel should be modulated on export.                       |
+| Emotes     | pandaXyz.png     | `camel-case`, `png` - Minimum of 512x512, but should still look good at 64x64, preferably less.               |
+| Masks      | pandaXyzMask.png | `camel-case`, `png` - Same size as emote. This isn't required if every pixel should be modulated on export.   |
 | Projects   | pandaXyz.xyz     | `camel-case`, `optional` - You can upload another project file for the same emote if it's a different format. |
 > Generic things have been written as `tags` instead of sentences.
 
