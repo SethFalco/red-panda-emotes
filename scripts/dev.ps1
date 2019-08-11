@@ -3,8 +3,7 @@ docker run -v ${pwd}:/home/imagemagick         `
     /bin/sh                                    `
         -c "sed -i 's/\r//g' scripts/*.sh   && `
             bash scripts/test.sh            && `
-            bash scripts/build.sh           && `
-            sh scripts/pages.sh"
+            bash scripts/build.sh"
 
 # This will only use the repositories latest image which is considered a stable
 # and ready to build on, and won't do much else.
