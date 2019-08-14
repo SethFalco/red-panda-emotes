@@ -13,7 +13,6 @@ test:
   stage: test
   script: 
     - |
-      #!/bin/bash
       for FILE in masks/*
       do
         MASK=${FILE#*masks/}
@@ -36,7 +35,6 @@ build:
   stage: build
   script:
     - |
-      #!/bin/bash
       # Build a giant string that represents the command we want to perform to build all emotes.
       # This is done so each input is only loaded once to general all exports.
       addcolor() { # COLOR, PREFIX, HUE
