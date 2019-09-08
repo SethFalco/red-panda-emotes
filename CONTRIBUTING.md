@@ -2,10 +2,10 @@
 ## About
 This will be a short document about any expectations, standards, or information you should know before 
 you try to commit your own work, and how to contribute to this project if you're new to using GitLab.
-> None of this guide will show you how to use `git` specifically but just the GitLab UI and Web IDE.
+> None of this guide will show you how to use `git` specifically; just the GitLab UI and Web IDE.
 
 ## Conventions
-### Directories
+### Files & Directories
 | Directory  | Purpose                                                                           |
 |------------|-----------------------------------------------------------------------------------|
 | /emotes/   | Full quality emote.                                                               |
@@ -13,14 +13,14 @@ you try to commit your own work, and how to contribute to this project if you're
 | /projects/ | Project files for each emote, this isn't required but is nice to have.            |
 | LICENSE    | The license your contribution will be uploaded by, here's a [TL;DR][apache-tldr]. |
 > All other files in the directory are for documentation, or maintenance, you can ignore them
-> if you're only planning to contribute artwork.
+> if you're only planning to contribute artwork or make your own emotes using ours as a base.
 
 ### Naming Conventions and Guidelines
-| Type       | Name             | Notes                                                                                                         |
-|------------|------------------|---------------------------------------------------------------------------------------------------------------|
-| Emotes     | pandaXyz.png     | `camel-case`, `png` - Minimum of 512x512, but should still look good at 64x64, preferably less.               |
-| Masks      | pandaXyzMask.png | `camel-case`, `png` - Same size as emote. This isn't required if every pixel should be modulated on export.   |
-| Projects   | pandaXyz.xyz     | `camel-case`, `optional` - You can upload another project file for the same emote if it's a different format. |
+| Type       | Name             | Notes                                                                                                       |
+|------------|------------------|-------------------------------------------------------------------------------------------------------------|
+| Emotes     | pandaXyz.png     | `camel-case`, `png` - Minimum of 512x512, but should still look good at 64x64, preferably less.             |
+| Masks      | pandaXyzMask.png | `camel-case`, `png` - Same size as emote. This isn't required if every pixel should be modulated on export. |
+| Projects   | pandaXyz.psd     | `camel-case`, `psd`, `optional` - You can use any program, but the result must be a PSD file.               |
 > Generic things have been written as `tags` instead of sentences.
 
 ## Adding Emotes
