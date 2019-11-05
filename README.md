@@ -1,4 +1,4 @@
-# Elypia Emotes [![discord-members]][discord] [![gitlab-build]][gitlab]
+# Elypia Emotes [![discord-members]][discord] [![gitlab-build]][gitlab] [![donate-shield]][elypia-donate]
 All emotes for Elypia which are open-source and available via the Apache 2.0 license.  
 For information on contributing please check out [the contribution guide]. 
 
@@ -19,11 +19,13 @@ feel free to [download] the artifacts from the latest pipeline instead, it shoul
 
 [discord]: https://discord.gg/hprGMaM "Discord Invite"
 [gitlab]: https://gitlab.com/Elypia/elypia-emotes/commits/master "Repository on GitLab"
+[elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [the contribution guide]: ./CONTRIBUTING.md "Contribute to the Elypia Emotes"
 [here]: https://elypia.gitlab.io/elypia-emotes/emotes.zip "All Emotes Packaged"
 [download]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/download?job=pages "Download Latest Pipeline"
 
 [discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [gitlab-build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
+[donate-shield]: https://img.shields.io/badge/Elypia-Donate-blueviolet "Donate Shield"
 [All Colors]: https://elypia.gitlab.io/elypia-emotes/colors.png "All Colors"
 [All Emotes]: https://elypia.gitlab.io/elypia-emotes/emotes.png "All Unique Emotes"
