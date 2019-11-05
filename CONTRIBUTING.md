@@ -12,6 +12,7 @@ you try to commit your own work, and how to contribute to this project if you're
 | /masks/    | Greyscale mask that represents what pixels to modulate when modifying hue. |
 | /projects/ | Project files for each emote, this isn't required but is nice to have.     |
 | LICENSE    | The license your contribution will be uploaded by, here's a [TL;DR].       |
+| NOTICE     | Information on the project and invidual copyright holders.                 |
 > All other files in the directory are for documentation, or maintenance, you can ignore them
 > if you're only planning to contribute artwork or make your own emotes using ours as a base.
 
