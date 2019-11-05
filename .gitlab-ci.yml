@@ -103,7 +103,7 @@ build:
       mkdir -p public
 
       # Zip up all of the exported emotes into the public folder.
-      zip -rq public/emotes.zip output/ LICENSE
+      zip -rq public/emotes.zip output/ LICENSE NOTICE
 
       # Create montages by using a glob and name of the montage output
       exportmontage "*/128px/*pandaAww.png" "colors"
