@@ -6,12 +6,12 @@ you try to commit your own work, and how to contribute to this project if you're
 
 ## Conventions
 ### Files & Directories
-| Directory  | Purpose                                                                           |
-|------------|-----------------------------------------------------------------------------------|
-| /emotes/   | Full quality emote.                                                               |
-| /masks/    | Greyscale mask that represents what pixels to modulate when modifying hue.        |
-| /projects/ | Project files for each emote, this isn't required but is nice to have.            |
-| LICENSE    | The license your contribution will be uploaded by, here's a [TL;DR][apache-tldr]. |
+| Directory  | Purpose                                                                    |
+|------------|----------------------------------------------------------------------------|
+| /emotes/   | Full quality emote.                                                        |
+| /masks/    | Greyscale mask that represents what pixels to modulate when modifying hue. |
+| /projects/ | Project files for each emote, this isn't required but is nice to have.     |
+| LICENSE    | The license your contribution will be uploaded by, here's a [TL;DR].       |
 > All other files in the directory are for documentation, or maintenance, you can ignore them
 > if you're only planning to contribute artwork or make your own emotes using ours as a base.
 
@@ -25,13 +25,13 @@ you try to commit your own work, and how to contribute to this project if you're
 
 ## Adding Emotes
 There are two ways to contribute to this repository:  
-1. Draw something and just create an [issue][issues] attaching your emote and asking for it to be added.
+1. Draw something and just create an [issue] attaching your emote and asking for it to be added.
 2. Create a fork and use the `Web IDE` feature to add and commit it yourself, and create a merge request. 
 
 Using the Web IDE is recommended as it traces the commit back to you, allowing you to take credit and 
-have your name/email listed in the [contributors][contributors] of the project, however if you're feeling 
+have your name/email listed in the [contributors] of the project, however if you're feeling 
 lazy you can just attach your contribution as an issue and one of the maintainers will manually add it if they like it. 
-> Feel free to join our [Discord][discord] and ask someone for help if you end up getting a bit stuck!
+> Feel free to join our [Discord] and ask someone for help if you end up getting a bit stuck!
 
 <details>
     <summary><strong>Glossary</strong></summary>
@@ -58,7 +58,7 @@ Creating an issue is pretty simple, you just go to the original git repository, 
 `Issues`, then press `New issue` at the top, fill out the information and upload the 
 image, and click `Submit issue`. From there you just wait for someone to review it.
 
-![Creating an Issue](assets/issue.gif)
+![Creating an Issue]
 
 ### GitLab Web IDE
 The GitLab route involves a bit of extra navigation, forking a project, using the Web IDE to modify your 
@@ -68,7 +68,7 @@ repository and then making a merge request back to the main repository.
 The first step is to fork the project, this can be done via the GitLab website by just clicking the 
 `Fork` button on the project home.
 
-![Forking the Project](assets/fork_project.gif)
+![Forking the Project]
 > Notice how at first we're in the project under the Elypia namespace (`Elypia > Elypia Emotes`) 
 but after the fork we're now in another namespace (`{YOUR_NAMESPACE} > Elypia Emotes`).  
 Forking the project will clone the project to your namespace so that you can track your 
@@ -102,11 +102,13 @@ This is also a good place to get your pull request a title and description so
 we have more information on what you changed and why!
 
 After this just click `Submit merge request`, and you'll see it 
-[here][merge] for the repository maintainers to review.
+[here] for the repository maintainers to review.
 
-[origin]: https://gitlab.com/Elypia/elypia-emotes: "Elypia/elypia-emotes"
-[issues]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
-[merge]: https://gitlab.com/Elypia/elypia-emotes/merge_requests "Elypia Emotes Merge Requests"
+[TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "Apache License 2.0 TL;DR"
+[issue]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
-[discord]: https://discord.gg/hprGMaM "Elypia on Discord"
-[apache-tldr]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "Apache License 2.0 TL;DR"
+[Discord]: https://discord.gg/hprGMaM "Elypia on Discord"
+[here]: https://gitlab.com/Elypia/elypia-emotes/merge_requests "Elypia Emotes Merge Requests"
+
+[Creating an Issue]: ./assets/issue.gif "Creating an Issue"
+[Forking the Project]: ./assets/fork_project.gif "Forking the Project"
