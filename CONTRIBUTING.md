@@ -24,6 +24,9 @@ you try to commit your own work, and how to contribute to this project if you're
 | Projects   | pandaXyz.psd     | `camel-case`, `psd`, `optional` - You can use any program, but the result must be a PSD file.               |
 > Generic things have been written as `tags` instead of sentences.
 
+### Reference Sheet
+![reference]
+
 ## Adding Emotes
 There are two ways to contribute to this repository:  
 1. Draw something and just create an [issue] attaching your emote and asking for it to be added.
@@ -111,5 +114,6 @@ After this just click `Submit merge request`, and you'll see it
 [Discord]: https://discord.gg/hprGMaM "Elypia on Discord"
 [here]: https://gitlab.com/Elypia/elypia-emotes/merge_requests "Elypia Emotes Merge Requests"
 
+[reference]: ./assets/reference.png "Reference and Colors for an Emote"
 [Creating an Issue]: ./assets/issue.gif "Creating an Issue"
 [Forking the Project]: ./assets/fork_project.gif "Forking the Project"
