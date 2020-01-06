@@ -1,4 +1,16 @@
+######################
+# Visual Studio Code #
+######################
 .vs/
-/output/
+.cache/
+
+################
+# GitLab Pages #
+################
 /public/
-/.cache/
+
+###############
+# ImageCaster #
+###############
+/.imagecaster/
+/build/
