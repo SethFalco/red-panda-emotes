@@ -6,17 +6,17 @@ cache:
     - build/
 
 test:
-  stage: test
   script: 
-    - imagecaster test
+    - imagecaster check
 
 build:
-  stage: build
   script:
     - imagecaster build
 
 pages:
   stage: deploy
+  only: 
+    - master
   script:
     - imagecaster montage
   artifacts:
