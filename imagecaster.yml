@@ -1,5 +1,5 @@
 export:
-  input: "src/static/panda(.+).png"
+  input: "src\/static\/panda(.+).png$"
   exif:
     - tag: "Artist"
       value: "Elypia CIC and Contributors"
@@ -8,6 +8,7 @@ export:
     - tag: "ImageDescription"
       value: "The ${FILENAME} emoji from the selection of Elypia emotes."
   sizes:
+    units: "px"
     dimensions:
       - height: 512
       - height: 258
@@ -22,18 +23,27 @@ export:
     mask: "src/static/masks/panda$1.mask.png"
     modulate:
       - name: "blue"
+        brightness: 100
+        saturation: 100
         hue: 0
       - name: "green"
+        brightness: 100
+        saturation: 100
         hue: 166
       - name: "pink"
+        brightness: 100
+        saturation: 100
         hue: 66.6
       - name: "red"
+        brightness: 100
         saturation: 90
         hue: 79
       - name: "violet"
+        brightness: 100
         saturation: 70
         hue: 50
       - name: "yellow"
+        brightness: 100
         saturation: 115
         hue: 115
 montages:
