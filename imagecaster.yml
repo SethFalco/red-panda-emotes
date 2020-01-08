@@ -1,5 +1,5 @@
 export:
-  input: "src/static/panda*.png"
+  input: "src/static/panda(.+).png"
   exif:
     - tag: "Artist"
       value: "Elypia CIC and Contributors"
@@ -8,7 +8,6 @@ export:
     - tag: "ImageDescription"
       value: "The ${FILENAME} emoji from the selection of Elypia emotes."
   sizes:
-    units: "px"
     dimensions:
       - height: 512
       - height: 258
@@ -21,29 +20,37 @@ export:
       - height: 28
   colors:
     mask: "src/static/masks/panda$1.mask.png"
-    color:
+    modulate:
       - name: "blue"
-        modulate: "100,100,0"
+        hue: 0
       - name: "green"
-        modulate: "100,100,166"
+        hue: 166
       - name: "pink"
-        modulate: "100,100,66.6"
+        hue: 66.6
       - name: "red"
-        modulate: "100,90,79"
+        saturation: 90
+        hue: 79
       - name: "violet"
-        modulate: "100,70,50"
+        saturation: 70
+        hue: 50
       - name: "yellow"
-        modulate: "100,115,115"
+        saturation: 115
+        hue: 115
 montages:
   - name: "colors"
-    glob: "build/128px/*pandaAww.png"
+    pattern: "build/128px/.*pandaAww.png"
   - name: "emotes"
-    glob: "build/128px/*"
+    pattern: "build/128px/.+"
 checks:
   - name: "mask-resolution-matches"
+  - name: "naming-convention"
+    args:
+      pattern: "^panda[A-Z][A-Za-z]+.png$"
   - name: "file-exists"
-    source: "src/static/mask/panda*.mask.png"
-    target: "src/static/panda$1.png"
+    args: 
+      source: "src/static/mask/panda(.+).mask.png"
+      target: "src/static/panda$1.png"
   - name: "file-exists"
-    source: "src/static/panda*.png"
-    target: "src/static/projects/panda$1.psd"
+    args:
+      source: "src/static/panda(.+).png"
+      target: "src/static/projects/panda$1.psd"
