@@ -3,12 +3,7 @@ All emotes for Elypia which are open-source and available via the Apache 2.0 lic
 For information on contributing please check out [the contribution guide]. 
 
 ## Download
-You can download all emotes [here]!  
-
----
-
-Sometimes GitLab Pages isn't up to date with the repo, if there's an emote you want but you can't find it in the archive,
-feel free to [download] the artifacts from the latest pipeline instead, it should be available there!
+You can download all emotes [here]! 
 
 ## OpenRaster (ORA)
 All project files in this repository are .ora files, the file format for [OpenRaster].
