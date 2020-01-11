@@ -20,8 +20,9 @@ of [GIMP] and [Krita]. It's an open format designed to be an alternative to the 
 
 ### What if my drawing program doesn't support OpenRaster?
 You can use something like [GIMP] or [Krita] to convert it to a format compatible with your drawing software first. When converting it back, be wary of
-program specific features that may have been used to draw the image when trying to convert it back to OpenRaster,
-you may have to rasterize or merge some layers.
+program specific features that may have been used to draw the image when trying to convert it back to OpenRaster, you may have to rasterize or merge some layers.
+
+Meanwhile you could always ask them to support the format!
 
 ## Emotes
 ### All Colors
