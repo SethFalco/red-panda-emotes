@@ -1,5 +1,9 @@
 image: elypia/imagecaster:0.1.0
 
+stages: 
+  - test
+  - build
+
 cache:
   policy: pull-push
   paths:
