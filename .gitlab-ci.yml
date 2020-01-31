@@ -1,6 +1,7 @@
-image: elypia/imagecaster:1.0.0
+image: elypia/imagecaster:0.1.0
 
 cache:
+  policy: pull-push
   paths:
     - .imagecaster/
     - build/
@@ -8,17 +9,20 @@ cache:
 test:
   script: 
     - imagecaster check
+  cache: {}
 
 build:
   script:
     - imagecaster build
+    - imagecaster montage
 
 pages:
   stage: deploy
   only: 
     - master
   script:
-    - imagecaster montage
+    - mkdir -p public
+    - mv build/montages/ public/
   artifacts:
     paths:
       - public/
