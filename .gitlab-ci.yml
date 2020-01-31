@@ -7,11 +7,13 @@ cache:
     - build/
 
 test:
+  stage: test
   script: 
     - imagecaster check
   cache: {}
 
 build:
+  stage: build
   script:
     - imagecaster build
     - imagecaster montage
