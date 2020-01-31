@@ -3,6 +3,7 @@ image: elypia/imagecaster:0.1.0
 stages: 
   - test
   - build
+  - deploy
 
 cache:
   policy: pull-push
