@@ -8,24 +8,20 @@ how to contribute to this project if you're new to using GitLab.
 
 ## Conventions
 ### Files & Directories
-| Directory  | Purpose                                                                    |
-|------------|----------------------------------------------------------------------------|
-| /emotes/   | Full quality emote.                                                        |
-| /masks/    | Greyscale mask that represents what pixels to modulate when modifying hue. |
-| /projects/ | Project files for each emote, this isn't required but is nice to have.     |
-| LICENSE    | The license your contribution will be uploaded by, here's a [TL;DR].       |
-| NOTICE     | Information on the project and invidual copyright holders.                 |
-> All other files in the directory are for documentation, or
-> maintenance, you can ignore them if you're only planning to
-> contribute artwork or make your own emotes using ours as a base.
+| Directory     | Purpose                                                                       |
+|---------------|-------------------------------------------------------------------------------|
+| src/static/   | The full quality static emojis.                                               |
+| src/masks/    | Greyscale mask that show what parts of the image can have it's color altered. |
+| src/projects/ | Project files for each emote.                                                 |
+| LICENSE       | The license your contribution will be uploaded by, here's a [TL;DR].          |
+| NOTICE        | Information on the project's copyright holders.                               |
 
 ### Naming Conventions and Guidelines
-| Type       | Name             | Notes                                                                                                |
-|------------|------------------|------------------------------------------------------------------------------------------------------|
-| Emotes     | pandaXyz.png     | `camel-case`, `png` - Minimum of 512x512; should still look good at 64x64.                           |
-| Masks      | pandaXyzMask.png | `camel-case`, `png` - Same size as emote. Not required if every pixel should be modulated on export. |
-| Projects   | pandaXyz.ora     | `camel-case`, `psd` - You can use any program, but the result must be a ORA file.                    |
-> Generic things have been written as `tags` instead of sentences.
+| Type       | Name              | Notes                                                                                                |
+|------------|-------------------|--------------------------------------------------------------------------------|
+| Emotes     | pandaXyz.png      | Minimum of 512x512; should still look good at 64x64.                           |
+| Masks      | pandaXyz.mask.png | Same size as emote. Not required if every pixel should be modulated on export. |
+| Projects   | pandaXyz.ora      | You can use any program to draw, but the result must be a ORA file.            |
 
 ### Reference Sheet
 ![reference]
