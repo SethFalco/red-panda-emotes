@@ -7,22 +7,22 @@ export:
           value: "Elypia CIC"
         - tag: "Artist"
           value: "Elypia CIC and Contributors"
-        - tag: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
-          value: "Apache 2.0"
-        - tag: "ImageDescription"
-          value: "The ${NAME} emote from the Elypia Emotes."
-    iptc:
-      tags:
-        - tag: "Source"
-          value: "Elypia CIC"
-        - tag: "Contact"
-          value: "https://gitlab.com/Elypia/elypia-emotes"
-        - tag: "CopyrightNotice"
+        - tag: "Copyright"
           value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
-        - tag: "Headline"
-          value: "The ${NAME} emote from the Elypia Emotes."
-        - tag: "Keywords"
-          value: "emote"
+        - tag: "ImageDescription"
+          value: "The ${FILE_NAME} emote from the Elypia Emotes."
+    # iptc:
+    #   tags:
+    #     - tag: "Source"
+    #       value: "Elypia CIC"
+    #     - tag: "Contact"
+    #       value: "https://gitlab.com/Elypia/elypia-emotes"
+    #     - tag: "CopyrightNotice"
+    #       value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
+    #     - tag: "Headline"
+    #       value: "The ${NAME} emote from the Elypia Emotes."
+    #     - tag: "Keywords"
+    #       value: "emote"
   sizes:
     filter: "Catrom"
     dimensions:
