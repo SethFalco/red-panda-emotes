@@ -1,4 +1,4 @@
-image: elypia/imagecaster:0.1.9-q8
+image: elypia/imagecaster:0.2.0-q8
 
 stages: 
   - test
@@ -22,6 +22,7 @@ build:
   script:
     - imagecaster build
     - imagecaster montage
+    - imagecaster archive
 
 pages:
   stage: deploy
@@ -29,7 +30,8 @@ pages:
     - master
   script:
     - mkdir public
-    - mv build/montages/ public/
+    - mv build/montages/* public/
+    - mv build/archives/* public/
   artifacts:
     paths:
       - public/

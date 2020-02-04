@@ -59,6 +59,13 @@ montages:
     pattern: "build/export/.+/@128px/.*pandaAww\\.png"
   - name: "emotes"
     pattern: "build/export/src/@128px/.+"
+archives:
+  - name: "emotes"
+    sources:
+      - build/export/
+      - build/montages/
+      - LICENSE
+      - NOTICE
 checks:
   power-of-two:
     - source: "src/(?:animated|masks|static)/.+"
