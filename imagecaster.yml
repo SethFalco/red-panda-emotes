@@ -20,7 +20,7 @@ export:
     #     - tag: "CopyrightNotice"
     #       value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
     #     - tag: "Headline"
-    #       value: "The ${NAME} emote from the Elypia Emotes."
+    #       value: "The ${FILE_NAME} emote from the Elypia Emotes."
     #     - tag: "Keywords"
     #       value: "emote"
   sizes:
