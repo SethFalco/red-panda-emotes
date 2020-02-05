@@ -25,16 +25,7 @@ export:
     #       value: "emote"
   sizes:
     filter: "Catrom"
-    dimensions:
-      - height: 512
-      - height: 256
-      - height: 128
-      - height: 112
-      - height: 72
-      - height: 64
-      - height: 56
-      - height: 36
-      - height: 28
+    dimensions: ["512", "256", "128", "112", "72", "64", "56", "36", "28"]
   colors:
     mask: "src/masks/panda$1.mask.png"
     modulate:
@@ -56,9 +47,9 @@ export:
         hue: 115
 montages:
   - name: "colors"
-    pattern: "build/export/.+/@128px/.*pandaAww\\.png"
+    pattern: "build/export/.+/128x/.*pandaAww\\.png"
   - name: "emotes"
-    pattern: "build/export/src/@128px/.+"
+    pattern: "build/export/src/128x/.+"
 archives:
   - name: "emotes"
     sources:
