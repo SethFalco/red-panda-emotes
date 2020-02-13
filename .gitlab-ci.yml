@@ -1,4 +1,4 @@
-image: elypia/imagecaster:0.2.2-q8
+image: elypia/imagecaster:0.3.0-q8
 
 stages: 
   - test
