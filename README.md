@@ -1,4 +1,4 @@
-# Elypia Emotes [![matrix-members]][matrix] [![discord-members]][discord] [![gitlab-build]][gitlab] [![donate-shield]][elypia-donate]
+# Elypia Emotes [![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
 All emotes for Elypia which are open-source and available via the
 Apache 2.0 license.  
 For information on contributing please check out
@@ -42,8 +42,8 @@ Meanwhile you could always ask them to support the format!
 ### All Emotes
 ![All Emotes]
 
-[matrix]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
-[discord]: https://discord.gg/hprGMaM "Discord Invite"
+[matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
+[discord-guild]: https://discord.gg/hprGMaM "Discord Invite"
 [gitlab]: https://gitlab.com/Elypia/elypia-emotes/commits/master "Repository on GitLab"
 [elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [the contribution guide]: ./CONTRIBUTING.md "Contribute to the Elypia Emotes"
@@ -54,9 +54,9 @@ Meanwhile you could always ask them to support the format!
 [Krita]: https://krita.org/ "Krita"
 [public specification]: https://www.freedesktop.org/wiki/Specifications/OpenRaster/ "Specification for OpenRaster"
 
-[matrix-members]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
-[discord-members]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
-[gitlab-build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
-[donate-shield]: https://img.shields.io/badge/Elypia-Donate-blueviolet "Donate Shield"
+[Matrix]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
+[Discord]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
+[Build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
+[Donate]: https://img.shields.io/badge/Elypia-Donate-blueviolet "Donate Shield"
 [All Colors]: https://elypia.gitlab.io/elypia-emotes/colors.png "All Colors"
 [All Emotes]: https://elypia.gitlab.io/elypia-emotes/emotes.png "All Unique Emotes"

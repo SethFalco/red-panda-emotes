@@ -1,55 +1,39 @@
-export:
-  input: "src\/static\/panda(.+)\\.png$"
+build:
+  input:
+    - "src/static/"
   metadata:
     exif:
-      tags:
-        - tag: "OwnerName"
-          value: "Elypia CIC"
-        - tag: "Artist"
-          value: "Elypia CIC and Contributors"
-        - tag: "Copyright"
-          value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
-        - tag: "ImageDescription"
-          value: "The ${FILE_NAME} emote from the Elypia Emotes."
-    # iptc:
-    #   tags:
-    #     - tag: "Source"
-    #       value: "Elypia CIC"
-    #     - tag: "Contact"
-    #       value: "https://gitlab.com/Elypia/elypia-emotes"
-    #     - tag: "CopyrightNotice"
-    #       value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"
-    #     - tag: "Headline"
-    #       value: "The ${FILE_NAME} emote from the Elypia Emotes."
-    #     - tag: "Keywords"
-    #       value: "emote"
-  sizes:
+      - {tag: "OwnerName", value: "Elypia CIC"}
+      - {tag: "Artist", value: "Elypia CIC and Contributors"}
+      - {tag: "Copyright", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"}
+      - {tag: "ImageDescription", value: "The ${DATA_NAME} emote from the Elypia Emotes."}
+    iptc:
+      - {tag: "Source", value: "Elypia CIC"}
+      - {tag: "Contact", value: "https://gitlab.com/Elypia/elypia-emotes"}
+      - {tag: "CopyrightNotice", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"}
+      - {tag: "Headline", value: "The ${DATA_NAME} emote from the Elypia Emotes."}
+      - {tag: "Keyword", value: "emote"}
+  resize:
     filter: "Catrom"
-    dimensions: ["512", "256", "128", "112", "72", "64", "56", "36", "28"]
-  colors:
-    mask: "src/masks/panda$1.mask.png"
-    modulate:
-      - name: "src"
-        prefix: ""
-      - name: "blue"
-        hue: 0
-      - name: "green"
-        hue: 166
-      - name: "pink"
-        hue: 66.6
-      - name: "red"
-        hue: 82
-      - name: "violet"
-        saturation: 70
-        hue: 50
-      - name: "yellow"
-        saturation: 115
-        hue: 115
+    geometries: [512, 256, 128, 112, 72, 64, 56, 36, 28]
+  recolor:
+    mask:
+      pattern: "$1.mask.png"
+      sources:
+        - "src/masks/"
+    modulation:
+      - {name: "blue", hue: 0}
+      - {name: "green", hue: 166}
+      - {name: "pink", hue: 66.6}
+      - {name: "red", hue: 82}
+      - {name: "violet", saturation: 70, hue: 50}
+      - {name: "white", brightness: 200, saturation: 0}
+      - {name: "yellow", saturation: 115, hue: 115}
 montages:
   - name: "colors"
-    pattern: "build/export/.+/128x/.*pandaAww\\.png"
+    source: "regex:build/export/(?:.+)/128x/.?pandaAww.png"
   - name: "emotes"
-    pattern: "build/export/src/128x/.+"
+    source: "build/export/original/128x/"
 archives:
   - name: "emotes"
     sources:
@@ -59,23 +43,28 @@ archives:
       - NOTICE
 checks:
   power-of-two:
-    - source: "src/(?:animated|masks|static)/.+"
+    - source: "src/animated/"
+    - source: "src/masks/"
+    - source: "src/static/"
   resolution-matches:
-    - source: "src/masks/(.+)\\.mask\\.png$"
-      target: "src/static/$1.png"
+    - source: "regex:src/masks/(.+)\\.mask\\.png"
+      target: "src/static/"
+      pattern: "$1.png"
   file-exists:
-    - source: "src/projects/(.+)\\.ora$"
+    - source: "src/projects/"
+      target: "src/static/"
       patterns: 
-        - "src/static/$1.png"
-    - source: "src/masks/(.+)\\.mask\\.png$"
+        - "$1.png"
+    - source: "regex:src/masks/(.+)\\.mask\\.png"
+      target: "src/static/"
       patterns: 
-        - "src/static/$1.png"
+        - "$1.png"
   naming-convention:
-    - source: "src/static/.+"
+    - source: "src/static/"
       pattern: "^panda[A-Z][A-Za-z\\d]+\\.png$"
-    - source: "src/masks/.+"
+    - source: "src/masks/"
       pattern: "^panda[A-Z][A-Za-z\\d]+\\.mask\\.png$"
-    - source: "src/projects/.+"
+    - source: "src/projects/"
       pattern: "^panda[A-Z][A-Za-z\\d]+\\.ora$"
-    - source: "src/animation/.+"
+    - source: "src/animated/"
       pattern: "^apanda[A-Z][A-Za-z\\d]+\\.gif$"
