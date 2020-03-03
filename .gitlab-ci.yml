@@ -1,4 +1,4 @@
-image: elypia/imagecaster:0.3.0-q8
+image: elypia/imagecaster:0.4.0-q8
 
 stages: 
   - test
@@ -6,7 +6,6 @@ stages:
   - deploy
 
 cache:
-  policy: pull-push
   paths:
     - .imagecaster/
     - build/
