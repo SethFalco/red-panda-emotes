@@ -58,5 +58,5 @@ Meanwhile you could always ask them to support the format!
 [Discord]: https://discordapp.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [Build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
 [Donate]: https://img.shields.io/badge/Elypia-Donate-blueviolet "Donate Shield"
-[All Colors]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/colors.png?job=build "All Colors"
-[All Emotes]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/emotes.png?job=build "All Unique Emotes"
+[All Colors]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/build/montages/colors.png?job=build "All Colors"
+[All Emotes]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/build/montages/emotes.png?job=build "All Unique Emotes"
