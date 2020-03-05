@@ -22,15 +22,7 @@ build:
     - imagecaster build
     - imagecaster montage
     - imagecaster archive
-
-pages:
-  stage: deploy
-  only: 
-    - master
-  script:
-    - mkdir public
-    - mv build/montages/* public/
-    - mv build/archives/* public/
   artifacts:
     paths:
-      - public/
+      - build/montages/*
+      - build/archives/*
