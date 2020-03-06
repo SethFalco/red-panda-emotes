@@ -1,11 +1,17 @@
 # Elypia Emotes [![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
 All emotes for Elypia which are open-source and available via the
 Apache 2.0 license.  
-For information on contributing please check out
-[the contribution guide]. 
+For information on contributing please check out [the contribution guide]. 
 
 ## Download
 You can download all emotes [here]! 
+
+## Emotes
+### Colors
+![All Colors]
+
+### Emotes
+![All Emotes]
 
 ## OpenRaster (ORA)
 All project files in this repository are .ora files, the file format
@@ -34,13 +40,6 @@ the image when trying to convert it back to OpenRaster, you may have to
 rasterize or merge some layers.
 
 Meanwhile you could always ask them to support the format!
-
-## Emotes
-### All Colors
-![All Colors]
-
-### All Emotes
-![All Emotes]
 
 [matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
 [discord-guild]: https://discord.gg/hprGMaM "Discord Invite"
