@@ -31,23 +31,16 @@ build:
       - {name: "yellow", saturation: 115, hue: 115}
 montages:
   - name: "colors"
-    source: "regex:build/export/(?:.+)/128x/.?pandaAww.png"
+    source: "regex:build/export/(?:.+)/128x/.?pandaAww\\.png"
   - name: "emotes"
     source: "build/export/original/128x/"
-archives:
-  - name: "emotes"
-    sources:
-      - build/export/
-      - build/montages/
-      - LICENSE
-      - NOTICE
 checks:
   power-of-two:
     - source: "src/animated/"
     - source: "src/masks/"
     - source: "src/static/"
   resolution-matches:
-    - source: "regex:src/masks/(.+)\\.mask\\.png"
+    - source: "regex:src/masks/(.+?)\\..+"
       target: "src/static/"
       pattern: "$1.png"
   file-exists:
@@ -55,7 +48,7 @@ checks:
       target: "src/static/"
       patterns: 
         - "$1.png"
-    - source: "regex:src/masks/(.+)\\.mask\\.png"
+    - source: "regex:src/masks/(.+?)\\..+"
       target: "src/static/"
       patterns: 
         - "$1.png"

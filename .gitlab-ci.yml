@@ -3,7 +3,6 @@ image: elypia/imagecaster:0.4.0-q8
 stages: 
   - test
   - build
-  - deploy
 
 cache:
   paths:
@@ -21,8 +20,9 @@ build:
   script:
     - imagecaster build
     - imagecaster montage
-    - imagecaster archive
   artifacts:
     paths:
+      - LICENSE
+      - NOTICE
       - build/montages/*
-      - build/archives/*
+      - build/export/*
