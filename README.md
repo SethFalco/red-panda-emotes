@@ -62,7 +62,7 @@ Meanwhile you could always ask them to support the format!
 [Krita]: https://krita.org/ "Krita"
 [public specification]: https://www.freedesktop.org/wiki/Specifications/OpenRaster/ "Specification for OpenRaster"
 
-[Matrix]: https://img.shields.io/matrix/elypia-general:matrix.org?logo=matrix "Matrix Shield"
+[Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
 [Discord]: https://discord.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [Build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
 [Donate]: https://img.shields.io/badge/elypia-donate-blueviolet "Donate Shield"
