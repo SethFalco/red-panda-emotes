@@ -1,7 +1,7 @@
 # Elypia Emotes [![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
 
 ## About
-All emotes for Elypia primiarly consisting of cute little red pandas, but may include characters that represent our projects, or generic objects. You're welcome to use, modify, derive, or resistribute all emotes, animations, and project files
+All emotes for Elypia primiarly consisting of cute little red pandas, but may include characters that represent our projects, or generic objects. You're welcome to use, modify, derive, or redistribute all emotes, animations, and project files
 in the repository, even commercially.
 
 For information on contributing please check out [the contribution guide]. 
