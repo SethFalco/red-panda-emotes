@@ -17,7 +17,7 @@ how to contribute to this project if you're new to using GitLab.
 | NOTICE        | Information on the project's copyright holders.                               |
 
 ### Naming Conventions and Guidelines
-| Type       | Name              | Notes                                                                                                |
+| Type       | Name              | Notes                                                                          |
 |------------|-------------------|--------------------------------------------------------------------------------|
 | Emotes     | pandaXyz.png      | Minimum of 512x512; should still look good at 64x64.                           |
 | Masks      | pandaXyz.mask.png | Same size as emote. Not required if every pixel should be modulated on export. |
