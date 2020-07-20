@@ -30,10 +30,11 @@ build:
       - {name: "white", brightness: 200, saturation: 0}
       - {name: "yellow", saturation: 115, hue: 115}
 montages:
-  - name: "colors"
-    source: "regex:build/export/(?:.+)/128x/.?pandaAww\\.png"
-  - name: "emotes"
-    source: "build/export/original/128x/"
+  patterns:
+    - name: "colors"
+      source: "regex:build/export/(?:.+)/128x/.?pandaAww\\.png"
+    - name: "emotes"
+      source: "build/export/original/128x/"
 checks:
   power-of-two:
     - source: "src/animated/"
