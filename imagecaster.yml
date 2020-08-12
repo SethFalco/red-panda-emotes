@@ -1,6 +1,6 @@
 build:
   input:
-    - "src/static/"
+    - "src/projects/"
   metadata:
     exif:
       - {tag: "OwnerName", value: "Elypia CIC"}
@@ -30,31 +30,26 @@ build:
       - {name: "white", brightness: 200, saturation: 0}
       - {name: "yellow", saturation: 115, hue: 115}
 montages:
-  - name: "colors"
-    source: "regex:build/export/(?:.+)/128x/.?pandaAww\\.png"
-  - name: "emotes"
-    source: "build/export/original/128x/"
+  patterns:
+    - name: "colors"
+      source: "regex:build/export/(?:.+)/128x/.?pandaAww\\.png"
+    - name: "emotes"
+      source: "build/export/original/128x/"
 checks:
   power-of-two:
     - source: "src/animated/"
     - source: "src/masks/"
-    - source: "src/static/"
+    - source: "src/projects/"
   resolution-matches:
     - source: "regex:src/masks/(.+?)\\..+"
-      target: "src/static/"
+      target: "src/projects/"
       pattern: "$1.png"
   file-exists:
-    - source: "src/projects/"
-      target: "src/static/"
-      patterns: 
-        - "$1.png"
     - source: "regex:src/masks/(.+?)\\..+"
-      target: "src/static/"
+      target: "src/projects/"
       patterns: 
         - "$1.png"
   naming-convention:
-    - source: "src/static/"
-      pattern: "^panda[A-Z][A-Za-z\\d]+\\.png$"
     - source: "src/masks/"
       pattern: "^panda[A-Z][A-Za-z\\d]+\\.mask\\.png$"
     - source: "src/projects/"
