@@ -10,18 +10,16 @@ how to contribute to this project if you're new to using GitLab.
 ### Files & Directories
 | Directory     | Purpose                                                                       |
 |---------------|-------------------------------------------------------------------------------|
-| src/static/   | The full quality static emojis.                                               |
 | src/masks/    | Greyscale mask that show what parts of the image can have it's color altered. |
 | src/projects/ | Project files for each emote.                                                 |
 | LICENSE       | The license your contribution will be uploaded by, here's a [TL;DR].          |
 | NOTICE        | Information on the project's copyright holders.                               |
 
 ### Naming Conventions and Guidelines
-| Type       | Name              | Notes                                                                          |
-|------------|-------------------|--------------------------------------------------------------------------------|
-| Emotes     | pandaXyz.png      | Minimum of 512x512; should still look good at 64x64.                           |
-| Masks      | pandaXyz.mask.png | Same size as emote. Not required if every pixel should be modulated on export. |
-| Projects   | pandaXyz.ora      | You can use any program to draw, but the result must be a ORA file.            |
+| Type       | Name              | Notes                                                                                                                                       |
+|------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Masks      | pandaXyz.mask.png | Same size as emote. Not required if every pixel should be modulated on export.                                                              |
+| Projects   | pandaXyz.ora      | Minimum of 512x512; should still look good at 64x64. You can use any program to draw, but the result must exported as, or converted to ORA. |
 
 ### Reference Sheet
 ![reference]
