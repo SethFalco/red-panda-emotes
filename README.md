@@ -34,7 +34,7 @@ Special thanks to the following who have made the project what it is today:
 
 | Attributee                                                                        | Contribution                                                                                   |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [Froppy](https://www.froppy.art/)                                                 | Designed and drew the first iteration of emotes.                                               |
+| [Froppy](https://www.froppy.art/)                                                 | Designed and drew the first iteration of emotes, including over 50 images.                     |
 | [DefectiveFox](https://www.defectiveart.ink/)                                     | HD~ified emotes, contributed new ones, and assisted in defining the automated workflow.        |
 | [Vukory](https://github.com/Vukory/)                                              | Contributed new emotes and assisted in setting project guidelines.                             |
 | [All Other Contributors](https://gitlab.com/Elypia/elypia-emotes/-/graphs/master) | Contributing to the project through issues, pull requests, and supporting the people involved. |
