@@ -14,7 +14,7 @@ how to contribute to this project if you're new to using GitLab.
 | src/masks/    | Greyscale mask that show what parts of the image can have it's color altered. |
 | src/projects/ | Project files for each emote.                                                 |
 | LICENSE       | The license your contribution will be uploaded by.                            |
-| NOTICE        | Information on the project's copyright holders.                               |
+| README.md     | Information and attributions to serve to anyone receiving the the emotes.     |
 
 ### Naming Conventions and Guidelines
 | Type       | Name              | Notes                                                                          |

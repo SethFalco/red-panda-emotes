@@ -22,7 +22,7 @@ build:
     - imagecaster montage
   artifacts:
     paths:
+      - README.md
       - LICENSE
-      - NOTICE
       - build/montages/*
       - build/export/*
