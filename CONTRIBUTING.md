@@ -6,6 +6,20 @@ how to contribute to this project if you're new to using GitLab.
 > None of this guide will show you how to use `git` specifically; just
 > the GitLab UI and Web IDE.
 
+## License
+This section is only relevent to submissions of new assets for the repository
+regardless of means. If your contribution is feedback or an emote idea, 
+this does not apply to you.
+
+Before contributing, please note that this repository is under the 
+Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+**This is a very permissive and perpetual public license which grants the whole
+world the right to use the work for any purpose, including commercial.**
+
+Please read and understand the terms before submitting assets to
+the project.
+
 ## Conventions
 ### Files & Directories
 | Directory     | Purpose                                                                       |
