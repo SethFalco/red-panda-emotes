@@ -12,13 +12,13 @@ regardless of means. If your contribution is feedback or an emote idea,
 this does not apply to you.
 
 Before contributing, please note that this repository is under the 
-Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+[Creative Commons Attribution 4.0 International] (CC BY 4.0) license.
 
-**This is a very permissive and perpetual public license which grants the whole
-world the right to use the work for any purpose, including commercial.**
+**This is a very permissive and perpetual public license which grants the everyone
+the right to use the work for any purpose, including commercial.**
 
 Please read and understand the terms before submitting assets to
-the project.
+the project; a [human readable summary] is also available.
 
 ## Conventions
 ### Files & Directories
@@ -132,6 +132,8 @@ description so we have more information on what you changed and why!
 After this just click `Submit merge request`, and you'll see it [here]
 for the repository maintainers to review.
 
+[Creative Commons Attribution 4.0 International]: https://creativecommons.org/licenses/by/4.0/legalcode "CC-BY License"
+[human readable summary]: https://creativecommons.org/licenses/by/4.0/ "Human Readable Summary of CC-BY"
 [issue]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
 [Discord]: https://discord.gg/hprGMaM "Elypia on Discord"
