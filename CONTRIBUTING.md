@@ -13,7 +13,7 @@ how to contribute to this project if you're new to using GitLab.
 | src/static/   | The full quality static emojis.                                               |
 | src/masks/    | Greyscale mask that show what parts of the image can have it's color altered. |
 | src/projects/ | Project files for each emote.                                                 |
-| LICENSE       | The license your contribution will be uploaded by, here's a [TL;DR].          |
+| LICENSE       | The license your contribution will be uploaded by.                            |
 | NOTICE        | Information on the project's copyright holders.                               |
 
 ### Naming Conventions and Guidelines
@@ -118,7 +118,6 @@ description so we have more information on what you changed and why!
 After this just click `Submit merge request`, and you'll see it [here]
 for the repository maintainers to review.
 
-[TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "Apache License 2.0 TL;DR"
 [issue]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
 [Discord]: https://discord.gg/hprGMaM "Elypia on Discord"
