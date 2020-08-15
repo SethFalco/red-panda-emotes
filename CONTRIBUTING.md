@@ -6,14 +6,28 @@ how to contribute to this project if you're new to using GitLab.
 > None of this guide will show you how to use `git` specifically; just
 > the GitLab UI and Web IDE.
 
+## License
+This section is only relevent to submissions of new assets for the repository
+regardless of means. If your contribution is feedback or an emote idea, 
+this does not apply to you.
+
+Before contributing, please note that this repository is under the 
+[Creative Commons Attribution 4.0 International] (CC BY 4.0) license.
+
+**This is a very permissive and perpetual public license which grants the everyone
+the right to use the work for any purpose, including commercial.**
+
+Please read and understand the terms before submitting assets to
+the project; a [human readable summary] is also available.
+
 ## Conventions
 ### Files & Directories
 | Directory     | Purpose                                                                       |
 |---------------|-------------------------------------------------------------------------------|
 | src/masks/    | Greyscale mask that show what parts of the image can have it's color altered. |
 | src/projects/ | Project files for each emote.                                                 |
-| LICENSE       | The license your contribution will be uploaded by, here's a [TL;DR].          |
-| NOTICE        | Information on the project's copyright holders.                               |
+| LICENSE       | The license your contribution will be uploaded by.                            |
+| README.md     | Information and attributions to serve to anyone receiving the the emotes.     |
 
 ### Naming Conventions and Guidelines
 | Type       | Name              | Notes                                                                                                                                       |
@@ -116,7 +130,8 @@ description so we have more information on what you changed and why!
 After this just click `Submit merge request`, and you'll see it [here]
 for the repository maintainers to review.
 
-[TL;DR]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) "Apache License 2.0 TL;DR"
+[Creative Commons Attribution 4.0 International]: https://creativecommons.org/licenses/by/4.0/legalcode "CC-BY License"
+[human readable summary]: https://creativecommons.org/licenses/by/4.0/ "Human Readable Summary of CC-BY"
 [issue]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
 [Discord]: https://discord.gg/hprGMaM "Elypia on Discord"

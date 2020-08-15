@@ -5,12 +5,12 @@ build:
     exif:
       - {tag: "OwnerName", value: "Elypia CIC"}
       - {tag: "Artist", value: "Elypia CIC and Contributors"}
-      - {tag: "Copyright", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"}
+      - {tag: "Copyright", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/LICENSE"}
       - {tag: "ImageDescription", value: "The ${DATA_NAME} emote from the Elypia Emotes."}
     iptc:
       - {tag: "Source", value: "Elypia CIC"}
       - {tag: "Contact", value: "https://gitlab.com/Elypia/elypia-emotes"}
-      - {tag: "CopyrightNotice", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/NOTICE"}
+      - {tag: "CopyrightNotice", value: "https://gitlab.com/Elypia/elypia-emotes/blob/master/LICENSE"}
       - {tag: "Headline", value: "The ${DATA_NAME} emote from the Elypia Emotes."}
       - {tag: "Keyword", value: "emote"}
   resize:
