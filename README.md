@@ -1,4 +1,8 @@
-# Elypia Emotes [![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
+<div align="center">
+
+# Elypia Emotes
+[![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
+</div>
 
 ## About
 All emotes for Elypia primiarly consisting of red pandas, but may include
