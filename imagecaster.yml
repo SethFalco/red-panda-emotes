@@ -46,11 +46,11 @@ checks:
   file-exists:
     - source: "src/projects/"
       target: "src/static/"
-      patterns: 
+      patterns:
         - "$1.png"
     - source: "regex:src/masks/(.+?)\\..+"
       target: "src/static/"
-      patterns: 
+      patterns:
         - "$1.png"
   naming-convention:
     - source: "src/static/"
