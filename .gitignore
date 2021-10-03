@@ -1,21 +1,14 @@
-########
-# Bash #
-########
-.bash_history
+# Visual Studio Code
+.vscode/*
+*.code-workspace
 
-######################
-# Visual Studio Code #
-######################
-.vs/
-.cache/
+# Local History for Visual Studio Code
+.history/
 
-################
-# GitLab Pages #
-################
+
+# GitLab Pages
 /public/
 
-###############
-# ImageCaster #
-###############
+# ImageCaster
 /.imagecaster/
 /build/
