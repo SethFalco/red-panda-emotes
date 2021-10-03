@@ -52,7 +52,7 @@ allowing you to take credit and have your name/email listed in the
 [contributors] of the project, however if you're feeling  lazy you can
 just attach your contribution as an issue and one of the maintainers
 will manually add it if they like it. 
-> Feel free to join our [Discord] and ask someone for help if you end
+> Feel free to join our [Matrix] and ask someone for help if you end
 up getting a bit stuck!
 
 <details>
@@ -72,7 +72,7 @@ Some terms used in this guide may not be friendly or obvious to people haven't u
 
 </details>
 
-**You'll have to have a GitLab account before you can contribute.**
+**You'll need a GitLab account before you can contribute.**
 
 ### GitLab Issue
 Creating an issue is pretty simple, you just go to the original git
@@ -136,7 +136,7 @@ for the repository maintainers to review.
 [human readable summary]: https://creativecommons.org/licenses/by/4.0/ "Human Readable Summary of CC-BY"
 [issue]: https://gitlab.com/Elypia/elypia-emotes/issues "Elypia Emotes Issue Board"
 [contributors]: https://gitlab.com/Elypia/elypia-emotes/graphs/master "Contributors Graph"
-[Discord]: https://discord.gg/hprGMaM "Elypia on Discord"
+[Matrix]: https://matrix.to/#/!bVaYOBVQxZkGOMpzkc:matrix.org "Elypia on Matrix"
 [here]: https://gitlab.com/Elypia/elypia-emotes/merge_requests "Elypia Emotes Merge Requests"
 
 [reference]: ./assets/reference.png "Reference and Colors for an Emote"

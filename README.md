@@ -1,18 +1,15 @@
-<div align="center">
-
 # Elypia Emotes
-[![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Donate]][elypia-donate]
-</div>
+[![Matrix]][matrix-community] [![Build]][gitlab]
 
 ## About
-All emotes for Elypia primiarly consisting of red pandas, but may include
+All emotes for Elypia primarily consisting of red pandas, but may include
 characters that represent our projects, or generic objects. Anyone is welcome to use, modify,
 derive, and redistribute all emotes, animations, and project files in the repository, 
 even commercially.
 
 ## Creative Commons
 The emotes are licensed under [Creative Commons Attribution 4.0 International] (CC BY 4.0)!  
-You can find a [human readable summary] that sums up what you're allowed and not allowed to do 
+You can find a [human-readable summary] that sums up what you're allowed and not allowed to do 
 along with any requirements. 
 
 The only requirement is that one should attribute where the original work came from,
@@ -36,11 +33,11 @@ You can download all emotes [here]!
 ## Attributions
 Special thanks to the following who have made the project what it is today:
 
-| Attributee                                                                        | Contribution                                                                                   |
-|-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [Froppy](https://www.froppy.art/)                                                 | Designed and drew the first iteration of emotes, including over 50 images.                     |
-| [DefectiveFox](https://www.defectiveart.ink/)                                     | HD~ified emotes, contributed new ones, and assisted in defining the automated workflow.        |
-| [Vukory](https://github.com/Vukory/)                                              | Contributed new emotes and assisted in setting project guidelines.                             |
+| Attributee | Contribution |
+|------------|--------------|
+| [Moriko](https://www.morikomasuyo.art/) | Designed and drew the first iteration of emotes, including over 50 images. |
+| [DefectiveFox](https://defectivefox.com/) | HD~ified emotes, contributed new ones, and assisted in defining the automated workflow. |
+| [Vukory](https://github.com/Vukory/) | Contributed new emotes and assisted in setting project guidelines. |
 | [All Other Contributors](https://gitlab.com/Elypia/elypia-emotes/-/graphs/master) | Contributing to the project through issues, pull requests, and supporting the people involved. |
 
 ## Contributing
@@ -77,24 +74,20 @@ When converting it back, be wary of program specific features that may have
 been used to draw the image when trying to convert it back to OpenRaster, 
 you may have to rasterize or merge some layers.
 
-Meanwhile you could always ask them to support the format!
+Meanwhile, you could always ask them to support the format!
 
-[matrix-community]: https://matrix.to/#/+elypia:matrix.org "Matrix Invite"
-[discord-guild]: https://discord.com/invite/hprGMaM "Discord Invite"
+[matrix-community]: https://matrix.to/#/!bVaYOBVQxZkGOMpzkc:matrix.org "Matrix Invite"
 [gitlab]: https://gitlab.com/Elypia/elypia-emotes/commits/master "Repository on GitLab"
-[elypia-donate]: https://elypia.org/donate "Donate to Elypia"
 [the contribution guide]: ./CONTRIBUTING.md "Contribute to the Elypia Emotes"
 [here]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/download?job=build "All Emotes Packaged"
 [Creative Commons Attribution 4.0 International]: https://creativecommons.org/licenses/by/4.0/legalcode "CC-BY License"
-[human readable summary]: https://creativecommons.org/licenses/by/4.0/ "Human Readable Summary of CC-BY"
+[human-readable summary]: https://creativecommons.org/licenses/by/4.0/ "Human Readable Summary of CC-BY"
 [OpenRaster]: https://en.wikipedia.org/wiki/OpenRaster "OpenRaster on Wikipedia"
 [GIMP]: https://www.gimp.org/ "GIMP"
 [Krita]: https://krita.org/ "Krita"
 [public specification]: https://www.freedesktop.org/wiki/Specifications/OpenRaster/ "Specification for OpenRaster"
 
 [Matrix]: https://img.shields.io/matrix/elypia:matrix.org?logo=matrix "Matrix Shield"
-[Discord]: https://discord.com/api/guilds/184657525990359041/widget.png "Discord Shield"
 [Build]: https://gitlab.com/Elypia/elypia-emotes/badges/master/pipeline.svg "GitLab Build Shield"
-[Donate]: https://img.shields.io/badge/elypia-donate-blueviolet "Donate Shield"
 [All Colors]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/build/montages/colors.png?job=build "All Colors"
 [All Emotes]: https://gitlab.com/Elypia/elypia-emotes/-/jobs/artifacts/master/raw/build/montages/emotes.png?job=build "All Unique Emotes"
