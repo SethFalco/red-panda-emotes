@@ -9,14 +9,14 @@ even commercially.
 
 ## Creative Commons
 The emotes are licensed under [Creative Commons Attribution 4.0 International] (CC BY 4.0)!  
-You can find a [human-readable summary] that sums up what you're allowed and not allowed to do 
+You can find a human-readable summary that sums up what you're allowed and not allowed to do 
 along with any requirements. 
 
 The only requirement is that one should attribute where the original work came from,
 if and where reasonable, the minimum expectation is just a link to the repository, but
 the ideal attribution would be something like:
 
-> [Elypia Emotes](https://gitlab.com/Elypia/elypia-emotes) by [Elypia CIC and Contributors](https://gitlab.com/Elypia/elypia-emotes/-/graphs/master) is licensed under [CC BY 4.0][human readable summary].
+> [Elypia Emotes](https://gitlab.com/Elypia/elypia-emotes) by [Elypia](https://gitlab.com/Elypia/elypia-emotes/-/graphs/master) is licensed under [CC BY 4.0][human-readable summary].
 
 Read more about attributing work under Creative Commons [here](https://creativecommons.org/use-remix/attribution/)!
 
