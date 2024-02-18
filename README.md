@@ -24,6 +24,8 @@ You can download all emotes [here](https://gitlab.com/SethFalco/red-panda-emotes
 
 ## Attribution
 
+Assets have been contributed by the following illustrators:
+
 * [Moriko](https://morikomasuyoart.artstation.com/)
 * [DefectiveFox](https://defectivefox.com/)
 * [Vukory](https://vukory.artstation.com)
