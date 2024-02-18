@@ -9,5 +9,5 @@
 /public/
 
 # ImageCaster
-/.imagecaster/
-/build/
+.imagecaster/
+build/
