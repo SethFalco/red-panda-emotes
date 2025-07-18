@@ -1,16 +1,12 @@
 # Red Panda Emotes
 
-[![Build](https://gitlab.com/SethFalco/red-panda-emotes/badges/main/pipeline.svg)](https://gitlab.com/SethFalco/red-panda-emotes/commits/main)
+[![Build](https://gitlab.com/SethFalco/red-panda-emotes/badges/main/pipeline.svg)](https://gitlab.com/SethFalco/red-panda-emotes/commits/main) [![Download](https://img.shields.io/badge/download-emotes-blue)](https://gitlab.com/SethFalco/red-panda-emotes/-/jobs/artifacts/main/download?job=build)
 
 ## About
 
 Cute red panda emotes! Anyone is welcome to use, modify, derive, and redistribute the emotes and project files, even commercially.
 
 Please don't ask for permission to use them, just use them. As part of the license, you should attribute the original authors or link to this repository. ^-^'
-
-## Download
-
-You can download all emotes [here](https://gitlab.com/SethFalco/red-panda-emotes/-/jobs/artifacts/main/download?job=build)! 
 
 ## Emotes
 
@@ -26,9 +22,9 @@ You can download all emotes [here](https://gitlab.com/SethFalco/red-panda-emotes
 
 Assets have been contributed by the following illustrators:
 
-* [Moriko](https://morikomasuyoart.artstation.com/)
-* [DefectiveFox](https://defectivefox.com/)
-* [Vukory](https://vukory.artstation.com)
+* [Moriko](https://morikomasuyoart.artstation.com)
+* [DefectiveFox](https://defectivefox.com)
+* [Vukory](https://vukory.art)
 * [All Other Contributors](https://gitlab.com/SethFalco/red-panda-emotes/-/graphs/main)
 
 ## Technical Details
