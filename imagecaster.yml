@@ -3,12 +3,12 @@ build:
     - "src/static/"
   metadata:
     exif:
-      - {tag: "OwnerName", value: "Falco's Tea Party"}
+      - {tag: "OwnerName", value: "Moriko, DefectiveFox, Vukory, and Contributors"}
       - {tag: "Artist", value: "Moriko, DefectiveFox, Vukory, and Contributors"}
       - {tag: "Copyright", value: "https://gitlab.com/SethFalco/red-panda-emotes/blob/main/LICENSE"}
       - {tag: "ImageDescription", value: "The ${DATA_NAME} emote from the Red Panda Emotes."}
     iptc:
-      - {tag: "Source", value: "Falco's Tea Party"}
+      - {tag: "Source", value: "Moriko, DefectiveFox, Vukory, and Contributors"}
       - {tag: "Contact", value: "https://gitlab.com/SethFalco/red-panda-emotes"}
       - {tag: "CopyrightNotice", value: "https://gitlab.com/SethFalco/red-panda-emotes/blob/main/LICENSE"}
       - {tag: "Headline", value: "The ${DATA_NAME} emote from the Red Panda Emotes."}
