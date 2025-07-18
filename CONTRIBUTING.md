@@ -10,9 +10,9 @@ This section is only relevant to submissions of new assets for the repository. I
 
 Before contributing, please keep in mind that this repository is under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
-**This is a very permissive and perpetual public license which grants anyone the right to use the work for any purpose, including commercial.**
+**This is a permissive and perpetual license which grants anyone the right to use the work for any purpose, including commercial.**
 
-Please read the terms before submitting assets to the project. A [human readable summary of CC BY](https://creativecommons.org/licenses/by/4.0/) is also available.
+Read the terms before submitting assets to the project. A [human readable summary of CC BY](https://creativecommons.org/licenses/by/4.0/) is also available.
 
 ## Conventions
 
@@ -42,11 +42,11 @@ Please read the terms before submitting assets to the project. A [human readable
 
 | Body Part | Colors |
 |---|---|
-| Fur | `#E9700D` |
-| Mouth fur | `#E4C195`, `#7B3C05` |
-| Body fur | `#5A1F00` |
+| Fur | `#e9700d` |
+| Mouth fur | `#e4c195`, `#7b3c05` |
+| Body fur | `#5a1f00` |
 | Ears | `#430700` |
-| Mouth | `#950500`, `#F966E0` |
+| Mouth | `#950500`, `#f966e0` |
 
 ## Adding Emotes
 
