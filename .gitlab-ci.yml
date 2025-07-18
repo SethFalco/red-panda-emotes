@@ -1,17 +1,16 @@
 image: elypia/imagecaster:0.4.0-q8
 
-stages: 
+stages:
   - test
   - build
 
 cache:
   paths:
-    - .imagecaster/
     - build/
 
 test:
   stage: test
-  script: 
+  script:
     - imagecaster check
   cache: {}
 
