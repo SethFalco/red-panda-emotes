@@ -33,13 +33,13 @@ Assets have been contributed by the following illustrators:
 
 All project files in this repository are `.ora` files, the file format for [OpenRaster](https://wikipedia.org/wiki/OpenRaster).
 
-OpenRaster is an interchange format developed by the open-source community, including the developers of [Krita](https://krita.org) and [GIMP](https://www.gimp.org).
+OpenRaster is an interchange format developed by the Open Source community, including the developers of [Krita](https://krita.org) and [GIMP](https://www.gimp.org).
 
 #### Why are we using ORA?
 
 * It's a patent free and open format with a [public specification](https://www.freedesktop.org/wiki/Specifications/OpenRaster/).
 * It's designed to be an interchange format, unlike PSD, or XCF which are internal structures.
-* Widely backed by the open-source community, and is even the default format for MyPaint and Nathive.
+* Widely backed by the Open Source community, and is even the default format for MyPaint and Nathive.
 * Supports layers and other project features that formats like PNG don't.
 * Can be opened without specialized software, try opening it as a ZIP
 file and look inside!
